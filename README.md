@@ -22,3 +22,5 @@ Research compendium for *A shared community response to nitrogen in the maize rh
 ## Citation
 
 Cite the [versioned release](https://github.com/mzw423502/maize-rhizosphere-nitrogen/releases/tag/v1.0.0) and the original data producers for their BioProject deposits. CITATION.cff gives the authors in manuscript order. Zimeng Niu and Zhongwu Ma contributed equally.
+
+To download just scenarios 0 and 25, use **python download_simulations.py downloads 0 25**. Omit the scenario numbers to fetch all 26. The downloader checks the SHA-256 of every file.

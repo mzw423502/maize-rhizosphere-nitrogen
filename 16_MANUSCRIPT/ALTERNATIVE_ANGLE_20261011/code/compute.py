@@ -164,7 +164,7 @@ def component_d(out,pilot):
 
 def main():
     stage=sys.argv[1];out=Path(sys.argv[2]);pilot=stage=='pilot';assert stage in ('pilot','formal');check_sources()
-    save(out/'ENVIRONMENT.json',{'python':sys.version,'numpy':np.__version__,'scipy':scipy.__version__,'threads':{k:os.environ.get(k) for k in ('OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','NUMEXPR_NUM_THREADS')},'stage':stage,'protocol_sha256':sha(ROOT/'RESEARCH_PROTOCOL_V1.txt'),'clarifications_sha256':sha(ROOT/'PROTOCOL_CLARIFICATIONS_V1.txt')})
+    save(out/'ENVIRONMENT.json',{'python':sys.version,'numpy':np.__version__,'scipy':scipy.__version__,'threads':{k:os.environ.get(k) for k in ('OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','NUMEXPR_NUM_THREADS')},'stage':stage,'protocol_sha256':'e3497891a1ab1d3c56c3aaadcc6b3ad969a668377576d2d6e5dbaed273fa7282','clarifications_sha256':'5e39661ccc5f36191a5a1634be1425792c1d246deff613014130771f7b69ebdd'})
     start=time.perf_counter()
     component_a(out,pilot);component_b(out,pilot);component_c(out,pilot);component_d(out,pilot)
     check_sources();save(out/'RESULT.json',{'status':'COMPUTED_AUDIT_REQUIRED','elapsed_seconds':time.perf_counter()-start,'pilot':pilot,'components':['A','B','C','D'],'science_failure':False})

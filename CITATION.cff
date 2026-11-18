@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the versioned release and the original data sources."
+title: "Nitrogen responses in the maize rhizosphere across field trials: analysis code and data"
+type: software
+version: "1.0.0"
+date-released: 2026-11-18
+repository-code: "https://github.com/mzw423502/maize-rhizosphere-nitrogen"
+url: "https://github.com/mzw423502/maize-rhizosphere-nitrogen/releases/tag/v1.0.0"
+authors:
+  - family-names: Niu
+    given-names: Zimeng
+  - family-names: Ma
+    given-names: Zhongwu
+  - family-names: Liu
+    given-names: Shangnian
+  - family-names: Li
+    given-names: "Xian'en"

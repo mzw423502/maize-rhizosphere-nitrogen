@@ -1,0 +1,887 @@
+{
+  "family": "Vicinamibacteraceae",
+  "input_source": "BOUND_INPUT_EXACT_FAMILY_KEY",
+  "primary_experiments": [
+    "A",
+    "B"
+  ],
+  "source_diagnostics": {
+    "A": "ORIGINAL_DIAGNOSTICS_RETAINED",
+    "B": "ALL_YEARS_NO_CAPTURED_FLAG",
+    "C": "ORIGINAL_DIAGNOSTICS_RETAINED"
+  },
+  "formal_P1_status": "NOT_RELEASED",
+  "P1_count": null,
+  "signature_weight": null,
+  "Bonn_release": false,
+  "P": null,
+  "FDR": null,
+  "estimand": "MODEL_CONDITIONAL_AB_NATURAL_LOG_ASSOCIATION",
+  "C_auxiliary": {
+    "role": "AUXILIARY_NOT_POOLED_NOT_AN_AB_GATE",
+    "presence": "PRESENT",
+    "source_record": {
+      "experiment": "C",
+      "family": "Vicinamibacteraceae",
+      "role": "AUXILIARY",
+      "year_count": 2,
+      "diagnostic_stratum": "ORIGINAL_DIAGNOSTICS_RETAINED",
+      "years": [
+        {
+          "cohort": "C_2017",
+          "family": "Vicinamibacteraceae",
+          "diagnostic_state": "FINAL_FIT_FLAG",
+          "diagnostics_literal": {
+            "family": "Vicinamibacteraceae",
+            "fit_returned": true,
+            "nobs": 46,
+            "coefficient_names": [
+              "(Intercept)",
+              "NLN",
+              "spatial_pair[\"continuous\",\"2\"]",
+              "spatial_pair[\"rotated\",\"1\"]",
+              "spatial_pair[\"rotated\",\"2\"]",
+              "period08",
+              "period09"
+            ],
+            "N_raw_estimate": 0.708675701385582,
+            "N_raw_standard_error": 0.379351325153172,
+            "N_fit_df": 2.96501913744135,
+            "fixed_basis_exact": true,
+            "dropped_columns": null,
+            "singular": true,
+            "optimizer_code": 0,
+            "convergence_messages": "boundary (singular) fit: see help('isSingular')",
+            "variance_components": [
+              {
+                "grp": "subplot_period_uid",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0,
+                "sdcor": 0
+              },
+              {
+                "grp": "allocation_unit",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0.218947621014593,
+                "sdcor": 0.467918391404519
+              },
+              {
+                "grp": "Residual",
+                "var1": null,
+                "var2": null,
+                "vcov": 0.389159832205363,
+                "sdcor": 0.623826764579209
+              }
+            ],
+            "qualified_numerical_fit": false
+          },
+          "input_support_literal": {
+            "family": "Vicinamibacteraceae",
+            "necessary_complete_formula_support_failed": false,
+            "nonzero_fixed_rank": 7,
+            "fixed_rank_without_N": 6,
+            "N_column_independently_estimable_in_fixed_mean_algebra": true,
+            "support_flags": []
+          },
+          "source_status": "ESTIMATE_PRESENT_NOT_REQUALIFIED_FOR_INFERENCE",
+          "N_contrast": "Low_N minus Std_N(180 kg/ha maize)",
+          "reference_context": "Same rank and coefficient; year-specific common-bias feature sets 155/155; no identical offset assumption",
+          "unit_count": 8,
+          "pair_count": 4,
+          "lfc_literal": "0.708675701385582",
+          "se_literal": "0.43219139577378",
+          "dof_literal": "2.96501913744135",
+          "source_path": "15_FINAL_AUDIT/PHASE5_AC_YEAR_MODELS_20261009_V1/actual/C_2017_observed/N_ASSOCIATIONS_RAW.tsv",
+          "source_line": 152,
+          "source_sha256": "f035b07ecdc43ba9e5be53ee39a249b295b3b3b2530db71e23cd46fbc8ad6b58"
+        },
+        {
+          "cohort": "C_2018",
+          "family": "Vicinamibacteraceae",
+          "diagnostic_state": "NO_CAPTURED_FINAL_FLAG",
+          "diagnostics_literal": {
+            "family": "Vicinamibacteraceae",
+            "fit_returned": true,
+            "nobs": 46,
+            "coefficient_names": [
+              "(Intercept)",
+              "NLN",
+              "spatial_pair[\"continuous\",\"2\"]",
+              "spatial_pair[\"rotated\",\"1\"]",
+              "spatial_pair[\"rotated\",\"2\"]",
+              "period08",
+              "period09"
+            ],
+            "N_raw_estimate": 1.29000669229909,
+            "N_raw_standard_error": 0.550581261937489,
+            "N_fit_df": 2.98631058080404,
+            "fixed_basis_exact": true,
+            "dropped_columns": null,
+            "singular": false,
+            "optimizer_code": 0,
+            "convergence_messages": null,
+            "variance_components": [
+              {
+                "grp": "subplot_period_uid",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0.00776732001664174,
+                "sdcor": 0.0881324004929046
+              },
+              {
+                "grp": "allocation_unit",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0.577367525396306,
+                "sdcor": 0.759847040789333
+              },
+              {
+                "grp": "Residual",
+                "var1": null,
+                "var2": null,
+                "vcov": 0.149593589649908,
+                "sdcor": 0.386773305244697
+              }
+            ],
+            "qualified_numerical_fit": true
+          },
+          "input_support_literal": {
+            "family": "Vicinamibacteraceae",
+            "necessary_complete_formula_support_failed": false,
+            "nonzero_fixed_rank": 7,
+            "fixed_rank_without_N": 6,
+            "N_column_independently_estimable_in_fixed_mean_algebra": true,
+            "support_flags": []
+          },
+          "source_status": "ESTIMATE_PRESENT_NOT_REQUALIFIED_FOR_INFERENCE",
+          "N_contrast": "Low_N minus Std_N(180 kg/ha maize)",
+          "reference_context": "Same rank and coefficient; year-specific common-bias feature sets 155/155; no identical offset assumption",
+          "unit_count": 8,
+          "pair_count": 4,
+          "lfc_literal": "1.29000669229909",
+          "se_literal": "0.597804450681418",
+          "dof_literal": "2.98631058080404",
+          "source_path": "15_FINAL_AUDIT/PHASE5_AC_YEAR_MODELS_20261009_V1/actual/C_2018_observed/N_ASSOCIATIONS_RAW.tsv",
+          "source_line": 151,
+          "source_sha256": "5e62fb06305476b7f52c7f460b3071fefc991bc6cf01a0bc7c6346b8af62d513"
+        }
+      ],
+      "theta": 0.999341196842336,
+      "point_status": "AVAILABLE",
+      "precision_status": "FULL_RHO_CONDITIONAL",
+      "point_sign": "POSITIVE",
+      "variance_intercept": 0.13603989095885002,
+      "variance_slope": 0.12918296996988993,
+      "se_min": 0.082806527453819,
+      "se_max": 0.514997923227599,
+      "critical_rho": 0.8796114224204884,
+      "rho_zero_exclusion_class": "PARTIAL_RHO",
+      "rho_interval_low": -1.0,
+      "rho_interval_high": 0.8796114224204884,
+      "rho_low_inclusive": true,
+      "rho_high_inclusive": false,
+      "degenerate_minus_one": false,
+      "contour_min_low": 0.833728141934698,
+      "contour_min_high": 1.164954251749974,
+      "contour_max_low": -0.030654649612862,
+      "contour_max_high": 2.029337043297534,
+      "precision_ratio_min_se": 12.06838672711721,
+      "precision_ratio_max_se": 1.9404761684848302,
+      "B_two_SE_excludes_zero": null,
+      "bio_CI": null,
+      "bio_P": null,
+      "bio_FDR": null,
+      "meta_weight": null,
+      "P1": null,
+      "contour_definition": "theta plus/minus two native model standard errors; conditional, not biological95CI"
+    },
+    "provenance": "Literal bound C record, including full affine rho_C precision, year estimates, diagnostics and missing statuses; no new C computation"
+  },
+  "precision_supported": true,
+  "input": {
+    "a": "-7498808450757/10000000000000000",
+    "b": "283802001180229/1000000000000000",
+    "alpha": "161754955042163/25000000000000000",
+    "beta": "6153317758909383/1000000000000000000",
+    "z": "345396582648365347294126091209/100000000000000000000000000000000"
+  },
+  "cells": [
+    {
+      "kind": "POINT",
+      "lo": "-1/1",
+      "hi": "-1/1",
+      "closed": [
+        true,
+        true
+      ],
+      "sample_rho": "-1/1",
+      "state": "REGULAR",
+      "branch": "POSITIVE_TAU",
+      "gates": {
+        "G1": "FAIL",
+        "G2": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G3": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G4": "PASS",
+        "G5": "PASS"
+      },
+      "joint": "FAIL",
+      "numeric": {
+        "rho_variance_A": "0.000316880442777137",
+        "tau2": "0.038599463647441066772294933465",
+        "weight_A": "0.5193719535427709266385132220377512297252254230534522868",
+        "weight_B": "0.4806280464572290733614867779622487702747745769465477132",
+        "mu": "0.1360137343284744138573133735199644270041740794530660534",
+        "Vw": "0.02021205765487929683259974914424234514642277706811155870",
+        "q_HK": "1",
+        "V_HK": "0.02021205765487929683259974914424234514642277706811155870",
+        "V_mHK": "0.02021205765487929683259974914424234514642277706811155870",
+        "Q": "21.47257347089242513662153219414473695250963097791701508",
+        "I2": "95.34289636332799174021024557706618395667689786819612619",
+        "within_weight_A": "0.9159656957218635279124886105845659032655761281239595212",
+        "CI_mHK_low": "-1.670416165673456551918963943748326043084373044345669106",
+        "CI_mHK_high": "1.942443634330405379633590690788254897092721203251801212",
+        "CI_HK_low": "-1.670416165673456551918963943748326043084373044345669106",
+        "CI_HK_high": "1.942443634330405379633590690788254897092721203251801212",
+        "PI_mHK_low": "-2.945379010576611428015037724465730676724875625945816395",
+        "PI_mHK_high": "3.217406479233560255729664471505659530733223784851948501",
+        "LOO_A_low": "-0.03563946628273450236869784949318779331846017598035300557",
+        "LOO_A_high": "0.03413970459258310236869784949318779331846017598035300557",
+        "LOO_B_low": "0.1686140352700623791620245807169315050457940233776389858",
+        "LOO_B_high": "0.3989899670903956208379754192830684949542059766223610142"
+      },
+      "interval_zero_states": {
+        "mHK_zero": "CONTAINS_ZERO",
+        "HK_zero": "CONTAINS_ZERO",
+        "PI_zero": "CONTAINS_ZERO",
+        "LOO_A_zero": "CONTAINS_ZERO",
+        "LOO_B_zero": "POSITIVE_EXCLUDES_ZERO"
+      },
+      "CR_components": {
+        "I2_75": true,
+        "opposing_experiment_interval": [
+          false,
+          false
+        ],
+        "PI_reverse_extent_status": "CONTAINS_ZERO",
+        "complete_C_R": "NOT_RELEASED"
+      },
+      "C_auxiliary_sign_relation": "SAME_SIGN"
+    },
+    {
+      "kind": "INTERVAL",
+      "lo": "-1/1",
+      "hi": "1/1",
+      "closed": [
+        false,
+        false
+      ],
+      "sample_rho": "0/1",
+      "state": "REGULAR",
+      "branch": "POSITIVE_TAU",
+      "gates": {
+        "G1": "FAIL",
+        "G2": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G3": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G4": "PASS",
+        "G5": "PASS"
+      },
+      "joint": "FAIL",
+      "numeric": {
+        "rho_variance_A": "0.00647019820168652",
+        "tau2": "0.035522804767986375272294933465",
+        "weight_A": "0.4813743311705481255542089417067774011726992602013530565",
+        "weight_B": "0.5186256688294518744457910582932225988273007397986469435",
+        "mu": "0.1468260292869772348640061834633966073340319283862424859",
+        "Vw": "0.02021435371836913119340407831832712817606083612749664190",
+        "q_HK": "1",
+        "V_HK": "0.02021435371836913119340407831832712817606083612749664190",
+        "V_mHK": "0.02021435371836913119340407831832712817606083612749664190",
+        "Q": "8.158850794314431099873904250815256330437431177912790818",
+        "I2": "87.74337188888343152334938951087141824617166529777628012",
+        "within_weight_A": "0.3480359470761890340572376664723052036851378644338956392",
+        "CI_mHK_low": "-1.659706471846049548693035710901834672574067196601609942",
+        "CI_mHK_high": "1.953358530420004018421048077828627887242131053374094914",
+        "CI_HK_low": "-1.659706471846049548693035710901834672574067196601609942",
+        "CI_HK_high": "1.953358530420004018421048077828627887242131053374094914",
+        "PI_mHK_low": "-2.852946067207866177819619368021325066885098846697138240",
+        "PI_mHK_high": "3.146598125781820647547631734948118281553162703469623212",
+        "LOO_A_low": "-0.1584045666413055361848813804189842988465965799286178296",
+        "LOO_A_high": "0.1569048049511541361848813804189842988465965799286178296",
+        "LOO_B_low": "0.1686140352700623791620245807169315050457940233776389858",
+        "LOO_B_high": "0.3989899670903956208379754192830684949542059766223610142"
+      },
+      "interval_zero_states": {
+        "mHK_zero": "CONTAINS_ZERO",
+        "HK_zero": "CONTAINS_ZERO",
+        "PI_zero": "CONTAINS_ZERO",
+        "LOO_A_zero": "CONTAINS_ZERO",
+        "LOO_B_zero": "POSITIVE_EXCLUDES_ZERO"
+      },
+      "CR_components": {
+        "I2_75": true,
+        "opposing_experiment_interval": [
+          false,
+          false
+        ],
+        "PI_reverse_extent_status": "CONTAINS_ZERO",
+        "complete_C_R": "NOT_RELEASED"
+      },
+      "C_auxiliary_sign_relation": "SAME_SIGN"
+    },
+    {
+      "kind": "POINT",
+      "lo": "1/1",
+      "hi": "1/1",
+      "closed": [
+        true,
+        true
+      ],
+      "sample_rho": "1/1",
+      "state": "REGULAR",
+      "branch": "POSITIVE_TAU",
+      "gates": {
+        "G1": "FAIL",
+        "G2": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G3": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G4": "PASS",
+        "G5": "PASS"
+      },
+      "joint": "FAIL",
+      "numeric": {
+        "rho_variance_A": "0.012623515960595903",
+        "tau2": "0.032446145888531683772294933465",
+        "weight_A": "0.4433767087983253244699046613758035726201730973492538261",
+        "weight_B": "0.5566232912016746755300953386241964273798269026507461739",
+        "mu": "0.1576383242454800558706989934068287876638897773194189183",
+        "Vw": "0.01998283833731963451453813722165747194967316654011372108",
+        "q_HK": "1",
+        "V_HK": "0.01998283833731963451453813722165747194967316654011372108",
+        "V_mHK": "0.01998283833731963451453813722165747194967316654011372108",
+        "Q": "5.036222378383482346541630677460991408236016983977167006",
+        "I2": "80.14384741443887130648853344467665253566643272735643404",
+        "within_weight_A": "0.2148325137124014554405165678726304173116536375910402774",
+        "CI_mHK_low": "-1.638519259607947937282757559285171157613836954841279769",
+        "CI_mHK_high": "1.953795908098908049024155546098828732941616509480117605",
+        "CI_HK_low": "-1.638519259607947937282757559285171157613836954841279769",
+        "CI_HK_high": "1.953795908098908049024155546098828732941616509480117605",
+        "PI_mHK_low": "-2.751749189960853465259549182605292806154496494486771749",
+        "PI_mHK_high": "3.067025838451813577000947169418950381482276049125609585",
+        "LOO_A_low": "-0.2209604998783189950205459741208962396689008582336903579",
+        "LOO_A_high": "0.2194607381881675950205459741208962396689008582336903579",
+        "LOO_B_low": "0.1686140352700623791620245807169315050457940233776389858",
+        "LOO_B_high": "0.3989899670903956208379754192830684949542059766223610142"
+      },
+      "interval_zero_states": {
+        "mHK_zero": "CONTAINS_ZERO",
+        "HK_zero": "CONTAINS_ZERO",
+        "PI_zero": "CONTAINS_ZERO",
+        "LOO_A_zero": "CONTAINS_ZERO",
+        "LOO_B_zero": "POSITIVE_EXCLUDES_ZERO"
+      },
+      "CR_components": {
+        "I2_75": true,
+        "opposing_experiment_interval": [
+          false,
+          false
+        ],
+        "PI_reverse_extent_status": "CONTAINS_ZERO",
+        "complete_C_R": "NOT_RELEASED"
+      },
+      "C_auxiliary_sign_relation": "SAME_SIGN"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "mu_zero",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-4177962296391187889500714639921/50000000000000000000000000000000",
+        "-6153317758909383/1000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "mu_zero",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-4177962296391187889500714639921/50000000000000000000000000000000",
+        "-6153317758909383/1000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "I2_75",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-4127311745146223012576608419373/400000000000000000000000000000000",
+        "6153317758909383/1000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "I2_75",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-4127311745146223012576608419373/400000000000000000000000000000000",
+        "6153317758909383/1000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "mHK_zero",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-131252075608688522100115657606178445874717407075169660293259234986559774654401843316964047784918123149094945386466184514331203/125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "8776520822997546696637714640207709602991747246342902964920719488885550339570254415914819611988430645549445858307/1250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "153770171010238222579286640696773105004247140244818476717346985455376712091446047901217329064020691/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "QUADRATIC_DISCRIMINANT_CERTIFIED"
+    },
+    {
+      "name": "mHK_zero",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-525008302434754088400462630424713783498869628300678641173036939946271833650473810049791042378088046839554107725048128630731149/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "35106083291990186786550858560830838411966988985371611859682877955544057341904950986449229791464692740541159519181/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "615080684040952890317146562787092420016988560979273906869387941821544711685226301196559589861523453/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "QUADRATIC_DISCRIMINANT_CERTIFIED"
+    },
+    {
+      "name": "HK_zero",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-131252075608688522100115657606178445874717407075169660293259234986559774654401843316964047784918123149094945386466184514331203/125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "8776520822997546696637714640207709602991747246342902964920719488885550339570254415914819611988430645549445858307/1250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "153770171010238222579286640696773105004247140244818476717346985455376712091446047901217329064020691/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "QUADRATIC_DISCRIMINANT_CERTIFIED"
+    },
+    {
+      "name": "HK_zero",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-525008302434754088400462630424713783498869628300678641173036939946271833650473810049791042378088046839554107725048128630731149/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "35106083291990186786550858560830838411966988985371611859682877955544057341904950986449229791464692740541159519181/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "615080684040952890317146562787092420016988560979273906869387941821544711685226301196559589861523453/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "QUADRATIC_DISCRIMINANT_CERTIFIED"
+    },
+    {
+      "name": "PI_zero",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-181717927404152080646339561063250162108897882901506554426240749786668495270073395466881191770353409535262149830619395564413953/62500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "209872771697767140204167659429362319154376473587981782764992505942679071905060561163395560515458184038055547561/1250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "153770171010238222579286640696773105004247140244818476717346985455376712091446047901217329064020691/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "QUADRATIC_DISCRIMINANT_CERTIFIED"
+    },
+    {
+      "name": "PI_zero",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-726871709616608322585358244253000648435591531606026217704962999146719111331311071392732255341838236130101487016800060600124399/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "839491086791068560816670637717449276617505894351927131059970023770767966878426889190572213403037739823212030663/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "615080684040952890317146562787092420016988560979273906869387941821544711685226301196559589861523453/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "QUADRATIC_DISCRIMINANT_CERTIFIED"
+    },
+    {
+      "name": "LOO_A_zero",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-388350588003533472041486951330520527567440284398085808254612339786923307796077157585739220764929752698381152970496226740525730420583158523466803/15625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "-14773572988435162807883191504013016586346639783157121338943959122432540696877136663427607984847318248972674749855705778089296137440090631674015623/625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "LOO_A_zero",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-6213609408056535552663791221288328441079044550369372932073797436654179701977941547380828028285781225964832299311784658848246749324307584976206347/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "-236377167814962604926131064064208265381546236530513941423103345961332707388612808838419645656743905815149394085483247842279125479812453162400118527/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "LOO_B_zero",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "4204706773961312196876953013681515718444696052469841444355427008971111469640710500636299817801272707736779543051161695736872762718551587281416124767658317153271/62500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "NONZERO_CONSTANT"
+    },
+    {
+      "name": "LOO_B_zero",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "67275308383380995150031248218904251495115136839517463109686832143402390541776566349267775217073175037492240117555731644271620472808154347873241283401707891991279/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "roots": [],
+      "proof": "NONZERO_CONSTANT"
+    },
+    {
+      "name": "weight_A_30",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "14685838525227151539976856024463/500000000000000000000000000000000",
+        "-6153317758909383/1000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "weight_A_30",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "14685838525227151539976856024463/500000000000000000000000000000000",
+        "-6153317758909383/1000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "weight_A_70",
+      "bound": 0,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-17702070900430018067035595112373/500000000000000000000000000000000",
+        "-6153317758909383/1000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    },
+    {
+      "name": "weight_A_70",
+      "bound": 1,
+      "branch": "POSITIVE_TAU",
+      "domain": [
+        "-1/1",
+        "1/1"
+      ],
+      "coefficients": [
+        "-17702070900430018067035595112373/500000000000000000000000000000000",
+        "-6153317758909383/1000000000000000000"
+      ],
+      "roots": [],
+      "proof": "LINEAR_EXACT"
+    }
+  ],
+  "domain": {
+    "G1": {
+      "PASS": [],
+      "FAIL": [
+        {
+          "kind": "POINT",
+          "lo": "-1/1",
+          "hi": "-1/1",
+          "closed": [
+            true,
+            true
+          ]
+        },
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            false,
+            false
+          ]
+        },
+        {
+          "kind": "POINT",
+          "lo": "1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G2": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": [
+        {
+          "kind": "POINT",
+          "lo": "-1/1",
+          "hi": "-1/1",
+          "closed": [
+            true,
+            true
+          ]
+        },
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            false,
+            false
+          ]
+        },
+        {
+          "kind": "POINT",
+          "lo": "1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    "G3": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": [
+        {
+          "kind": "POINT",
+          "lo": "-1/1",
+          "hi": "-1/1",
+          "closed": [
+            true,
+            true
+          ]
+        },
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            false,
+            false
+          ]
+        },
+        {
+          "kind": "POINT",
+          "lo": "1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    "G4": {
+      "PASS": [
+        {
+          "kind": "POINT",
+          "lo": "-1/1",
+          "hi": "-1/1",
+          "closed": [
+            true,
+            true
+          ]
+        },
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            false,
+            false
+          ]
+        },
+        {
+          "kind": "POINT",
+          "lo": "1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "FAIL": [],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G5": {
+      "PASS": [
+        {
+          "kind": "POINT",
+          "lo": "-1/1",
+          "hi": "-1/1",
+          "closed": [
+            true,
+            true
+          ]
+        },
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            false,
+            false
+          ]
+        },
+        {
+          "kind": "POINT",
+          "lo": "1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "FAIL": [],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "joint": {
+      "PASS": [],
+      "FAIL": [
+        {
+          "kind": "POINT",
+          "lo": "-1/1",
+          "hi": "-1/1",
+          "closed": [
+            true,
+            true
+          ]
+        },
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            false,
+            false
+          ]
+        },
+        {
+          "kind": "POINT",
+          "lo": "1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    }
+  },
+  "classes": {
+    "G1": "NONE",
+    "G2": "NOT_ASSESSABLE",
+    "G3": "NOT_ASSESSABLE",
+    "G4": "ALL_RHO",
+    "G5": "ALL_RHO",
+    "joint": "NONE"
+  },
+  "degenerate_endpoints": [],
+  "C_auxiliary_source": "C_auxiliary.source_record is the complete literal bound C record"
+}

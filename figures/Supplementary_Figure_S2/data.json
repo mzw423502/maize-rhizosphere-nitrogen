@@ -1,0 +1,3012 @@
+{
+  "global_null_cells": [
+    {
+      "id": 0,
+      "R": 1000,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.039,
+            "mcse": 0.006125072776426131,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.039,
+            "mcse": 0.006125072776426131,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.048708333333333326,
+            "mcse": 0.0014127326434450322,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.034,
+            "mcse": 0.0057338361396953854,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.034,
+            "mcse": 0.0057338361396953854,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0485,
+            "mcse": 0.001435106878938359,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9497916666666667,
+        "mcse": 0.00145308053467882,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 197740914584212422087089951359954980292,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 43340660626367455480482959499169522270,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 3,
+      "R": 1000,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.908,
+            "mcse": 0.009144376393151129,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.908,
+            "mcse": 0.009144376393151129,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.296375,
+            "mcse": 0.0029625223529062606,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.067,
+            "mcse": 0.007910345983177573,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.067,
+            "mcse": 0.007910345983177573,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.05108333333333333,
+            "mcse": 0.0014154885285445119,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.951,
+        "mcse": 0.0013540577392600877,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 273480231201584888368473493845594914403,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 285961740919041104672971629855481663715,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 6,
+      "R": 1000,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.998,
+            "mcse": 0.0014135055705578234,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.998,
+            "mcse": 0.0014135055705578234,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.4847916666666666,
+            "mcse": 0.0032462170410888476,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.047,
+            "mcse": 0.006695956678163012,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.047,
+            "mcse": 0.006695956678163012,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.049333333333333326,
+            "mcse": 0.0014039127362378942,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9499166666666667,
+        "mcse": 0.001389636935690491,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 117435818960539984343525299509529201359,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 263841988677403965329659426758771562794,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 9,
+      "R": 1000,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.042,
+            "mcse": 0.006346359293033785,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.042,
+            "mcse": 0.006346359293033785,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.050625,
+            "mcse": 0.0014336960290620157,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.066,
+            "mcse": 0.007855297938697534,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.066,
+            "mcse": 0.007855297938697534,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.050124999999999996,
+            "mcse": 0.0014270233953130446,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9490833333333334,
+        "mcse": 0.0013868328124522216,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 244495143408219297698509254055696236630,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 332082873593079214163902666213306538125,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 12,
+      "R": 1000,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.634625,
+            "mcse": 0.003125629455013118,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.049,
+            "mcse": 0.006829761756140959,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.049,
+            "mcse": 0.006829761756140959,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.050375,
+            "mcse": 0.0014145029257163781,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.948375,
+        "mcse": 0.0014221975635609451,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 253594646521450929343872752888983951312,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 172565045984874894540624779643444911893,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 15,
+      "R": 1000,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.7670416666666667,
+            "mcse": 0.0027883055628464917,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.057,
+            "mcse": 0.007335175853706904,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.057,
+            "mcse": 0.007335175853706904,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.049583333333333326,
+            "mcse": 0.0014222103939385512,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9494583333333334,
+        "mcse": 0.0014244880901913063,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 119540759088991766329491252263878183676,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 127117240725782050801175009003064901808,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 18,
+      "R": 1000,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.05,
+            "mcse": 0.006895472974897917,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.05,
+            "mcse": 0.006895472974897917,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.048791666666666664,
+            "mcse": 0.001487817446305597,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.057,
+            "mcse": 0.007335175853706903,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.057,
+            "mcse": 0.007335175853706903,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.048458333333333325,
+            "mcse": 0.0014188650776815318,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9515,
+        "mcse": 0.0014007898529801723,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 301292574206527552018609455632451058741,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 4503599497063317373768982502048954864,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 21,
+      "R": 1000,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.885,
+            "mcse": 0.010093407594904551,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.885,
+            "mcse": 0.010093407594904551,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.2807083333333334,
+            "mcse": 0.002815012888327572,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.06,
+            "mcse": 0.007513751157474971,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.06,
+            "mcse": 0.007513751157474971,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.049625,
+            "mcse": 0.001404144816011154,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9500416666666668,
+        "mcse": 0.0014071614574227597,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 284176685569090961550974674740382662533,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 89820896977797774124483835407419262908,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 24,
+      "R": 1000,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.997,
+            "mcse": 0.0017303161543469434,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.997,
+            "mcse": 0.0017303161543469434,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.4107083333333334,
+            "mcse": 0.00314583367860132,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.048,
+            "mcse": 0.006763264133666652,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.048,
+            "mcse": 0.006763264133666652,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.049791666666666665,
+            "mcse": 0.0014081343036859862,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9505,
+        "mcse": 0.00142145014704017,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 54772724552158712839235932224330917974,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 274997431946525300450381436313375570263,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 27,
+      "R": 1000,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.054,
+            "mcse": 0.007150883521295472,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.054,
+            "mcse": 0.007150883521295472,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0495,
+            "mcse": 0.0014275500026693399,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.048,
+            "mcse": 0.006763264133666652,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.048,
+            "mcse": 0.006763264133666652,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.049458333333333326,
+            "mcse": 0.0014149402373668522,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.950375,
+        "mcse": 0.0014090867453821173,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 79914193156306865241726777717652312139,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 138646058992669151150143961430036286871,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 30,
+      "R": 1000,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.6089583333333334,
+            "mcse": 0.003139259536347331,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.047,
+            "mcse": 0.006695956678163012,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.047,
+            "mcse": 0.006695956678163012,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.05020833333333333,
+            "mcse": 0.0013693412948176228,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9509166666666667,
+        "mcse": 0.0013765189888806373,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 128732203373267472425977119063529321595,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 159199558626945546176350639926047076823,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 33,
+      "R": 1000,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.7234583333333332,
+            "mcse": 0.0028363540468847115,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.054,
+            "mcse": 0.007150883521295472,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.054,
+            "mcse": 0.007150883521295472,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.050374999999999996,
+            "mcse": 0.001390963790462386,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9494166666666668,
+        "mcse": 0.001398989796327338,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 206872305899422037683979743868648136415,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 31169770060152899407004715159399808033,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 36,
+      "R": 1000,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.042,
+            "mcse": 0.006346359293033784,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.042,
+            "mcse": 0.006346359293033784,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.047,
+            "mcse": 0.0013911493117270445,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.045,
+            "mcse": 0.006558812241406064,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.045,
+            "mcse": 0.006558812241406064,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.048875,
+            "mcse": 0.0013995281938126104,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.04645833333333333,
+            "mcse": 0.001399965217762312,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.950625,
+        "mcse": 0.0014202998368748154,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 201429275134383004372823888364186105803,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 315940381340410567645979655621636517235,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 39,
+      "R": 1000,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.861,
+            "mcse": 0.010945263761042892,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.861,
+            "mcse": 0.010945263761042892,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.26495833333333335,
+            "mcse": 0.0029223272564543553,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.053,
+            "mcse": 0.007088105617246489,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.053,
+            "mcse": 0.007088105617246489,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.048291666666666656,
+            "mcse": 0.0013774043447150701,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.04520833333333333,
+            "mcse": 0.0013558219587170343,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9524166666666667,
+        "mcse": 0.0013962741585986668,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 198234372431255300086517464350800783437,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 3156425190347919382921157506176793239,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 42,
+      "R": 1000,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.99,
+            "mcse": 0.0031480009386767836,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.99,
+            "mcse": 0.0031480009386767836,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.383,
+            "mcse": 0.0030654176998515968,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.049,
+            "mcse": 0.006829761756140959,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.049,
+            "mcse": 0.006829761756140959,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.049,
+            "mcse": 0.001318949778197144,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.04525,
+            "mcse": 0.001286655303785613,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9510833333333334,
+        "mcse": 0.0013442035828553094,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 46467216004128306078216776482838875914,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 61964817489319700369768213095982461334,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 45,
+      "R": 1000,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 0.042,
+            "mcse": 0.006346359293033784,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.042,
+            "mcse": 0.006346359293033784,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.04679166666666666,
+            "mcse": 0.0013686405651013292,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.037,
+            "mcse": 0.005972157622389639,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.037,
+            "mcse": 0.005972157622389639,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.04745833333333333,
+            "mcse": 0.0013402902578163508,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.044083333333333335,
+            "mcse": 0.0012920682155393112,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9520833333333334,
+        "mcse": 0.0013747402460382873,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 258678945179255604337702116862452513433,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 79087282628886545739411958522918856611,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 48,
+      "R": 1000,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.5970833333333333,
+            "mcse": 0.003222932983982364,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.044,
+            "mcse": 0.0064889217984273875,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.044,
+            "mcse": 0.0064889217984273875,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.048125,
+            "mcse": 0.0014265264407011013,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.04645833333333333,
+            "mcse": 0.0014098610549644302,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.9515833333333332,
+        "mcse": 0.0014233438981134329,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 5274882969458606897429933301365702450,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 90360920561728696100659116217847774514,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    },
+    {
+      "id": 51,
+      "R": 1000,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "taxa": 24,
+      "read_depth": 10000,
+      "nonnull_CLR_targets": 0,
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methods": [
+        {
+          "method": "sample_Welch",
+          "FDR": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 1.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.6968333333333333,
+            "mcse": 0.0030176187117255263,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "unit_paired_t",
+          "FDR": {
+            "mean": 0.045,
+            "mcse": 0.006558812241406064,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.045,
+            "mcse": 0.006558812241406064,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.048958333333333326,
+            "mcse": 0.0014322407151886242,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        },
+        {
+          "method": "exact_pair_randomization",
+          "FDR": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "FWER": {
+            "mean": 0.0,
+            "mcse": 0.0,
+            "denominator": 1000
+          },
+          "unadjusted_rejection_fraction": {
+            "mean": 0.04754166666666666,
+            "mcse": 0.0014094566915615427,
+            "denominator": 1000
+          },
+          "power": {
+            "mean": null,
+            "mcse": null,
+            "denominator": null
+          }
+        }
+      ],
+      "latent_unit_t_coverage": {
+        "mean": 0.95075,
+        "mcse": 0.0014093068750596206,
+        "denominator": 1000
+      },
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 64128519202478857587837965386185899845,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 258246532851392495331749161971427195719,
+          "inc": 46885174337550769350090520707960975259
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      }
+    }
+  ],
+  "all_cells_latent_coverage": [
+    {
+      "id": 0,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9497916666666667,
+        "mcse": 0.00145308053467882,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 1,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9495833333333333,
+        "mcse": 0.001465540013016354,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 2,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9497500000000001,
+        "mcse": 0.0014783288841198217,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 3,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.951,
+        "mcse": 0.0013540577392600877,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 4,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9511666666666666,
+        "mcse": 0.001395390189318785,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 5,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9506666666666667,
+        "mcse": 0.0013864743777253796,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 6,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9499166666666667,
+        "mcse": 0.001389636935690491,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 7,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9495416666666667,
+        "mcse": 0.0013588333324022746,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 8,
+      "pairs": 2,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9494166666666668,
+        "mcse": 0.0014345618459697493,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 9,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9490833333333334,
+        "mcse": 0.0013868328124522216,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 10,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.95025,
+        "mcse": 0.0013613153817015904,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 11,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.95,
+        "mcse": 0.001422271489386909,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 12,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.948375,
+        "mcse": 0.0014221975635609451,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 13,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9495833333333334,
+        "mcse": 0.0013559020668393808,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 14,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9480833333333335,
+        "mcse": 0.0014207335293922353,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 15,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9494583333333334,
+        "mcse": 0.0014244880901913063,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 16,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.951125,
+        "mcse": 0.0013719379763798565,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 17,
+      "pairs": 2,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9522916666666668,
+        "mcse": 0.0013775658307949316,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 18,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9515,
+        "mcse": 0.0014007898529801723,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 19,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9498333333333335,
+        "mcse": 0.001432246175377914,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 20,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9490416666666668,
+        "mcse": 0.0014460647482162797,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 21,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9500416666666668,
+        "mcse": 0.0014071614574227597,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 22,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9497083333333333,
+        "mcse": 0.0014051543807830635,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 23,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9511666666666667,
+        "mcse": 0.0014539419797962876,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 24,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9505,
+        "mcse": 0.00142145014704017,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 25,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9493333333333334,
+        "mcse": 0.0014255326212912413,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 26,
+      "pairs": 4,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.95475,
+        "mcse": 0.0013265567490175158,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 27,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.950375,
+        "mcse": 0.0014090867453821173,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 28,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9509583333333333,
+        "mcse": 0.0014073294078407106,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 29,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.951125,
+        "mcse": 0.001406958902312801,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 30,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9509166666666667,
+        "mcse": 0.0013765189888806373,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 31,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9508333333333333,
+        "mcse": 0.001387386574886337,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 32,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9516250000000002,
+        "mcse": 0.001393310653970376,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 33,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9494166666666668,
+        "mcse": 0.001398989796327338,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 34,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9491666666666667,
+        "mcse": 0.001436617355102094,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 35,
+      "pairs": 4,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9520416666666668,
+        "mcse": 0.0013777071155876297,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 36,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.950625,
+        "mcse": 0.0014202998368748154,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 37,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9497083333333333,
+        "mcse": 0.0014284596929268042,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 38,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.0,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9490833333333334,
+        "mcse": 0.0014683926621798672,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 39,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9524166666666667,
+        "mcse": 0.0013962741585986668,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 40,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9520833333333334,
+        "mcse": 0.0014219659858951694,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 41,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.5,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9487916666666667,
+        "mcse": 0.0014140359831526707,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 42,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9510833333333334,
+        "mcse": 0.0013442035828553094,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 43,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.94825,
+        "mcse": 0.0014473650883700235,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 44,
+      "pairs": 8,
+      "subsamples": 5,
+      "latent_ICC": 0.9,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.950875,
+        "mcse": 0.00143016676447064,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 45,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9520833333333334,
+        "mcse": 0.0013747402460382873,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 46,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9503333333333334,
+        "mcse": 0.001411930984382812,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 47,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.0,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.950625,
+        "mcse": 0.0013931210544613469,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 48,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.9515833333333332,
+        "mcse": 0.0014233438981134329,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 49,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9506666666666668,
+        "mcse": 0.001421137129855161,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 50,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.5,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9506666666666668,
+        "mcse": 0.0013789332879324237,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 51,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "null",
+      "latent_unit_t_coverage": {
+        "mean": 0.95075,
+        "mcse": 0.0014093068750596206,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 52,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "balanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9505833333333333,
+        "mcse": 0.001456919926154757,
+        "denominator": 1000
+      }
+    },
+    {
+      "id": 53,
+      "pairs": 8,
+      "subsamples": 25,
+      "latent_ICC": 0.9,
+      "pattern": "unbalanced",
+      "latent_unit_t_coverage": {
+        "mean": 0.9497083333333334,
+        "mcse": 0.0014296757647231351,
+        "denominator": 1000
+      }
+    }
+  ]
+}

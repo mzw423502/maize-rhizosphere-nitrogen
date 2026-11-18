@@ -1,0 +1,1083 @@
+{
+  "rows": [
+    {
+      "family": "Abditibacteriaceae",
+      "path": "families/0000.json",
+      "sha256": "e70637ab19618c1cf8ddb4d0a1118627b3769a64df5e0fa150e103fe12270a6c"
+    },
+    {
+      "family": "Acetobacteraceae",
+      "path": "families/0001.json",
+      "sha256": "31fb4b85caa22a138d70a719b7c2d490b080bd437eec4f1a049e31b3dda364f0"
+    },
+    {
+      "family": "Acidaminococcaceae",
+      "path": "families/0002.json",
+      "sha256": "e57f766474d0463ebe9fb9d9a1b02c53b881aadc5cfe01286f24e750546586ed"
+    },
+    {
+      "family": "Acidimicrobiaceae",
+      "path": "families/0003.json",
+      "sha256": "41a8d03186a7d015f3f6c901d45472604f499708a01d1a00c796548664fe8d68"
+    },
+    {
+      "family": "Acidobacteriaceae (Subgroup 1)",
+      "path": "families/0004.json",
+      "sha256": "a372b30d9510347d25632e71ca320ab53dbe9b514af1656bad9665457f251d61"
+    },
+    {
+      "family": "Acidothermaceae",
+      "path": "families/0005.json",
+      "sha256": "52542b08b6d6dd228381f3d22aee80ad25da074485823e2f42095d02ba91b6e1"
+    },
+    {
+      "family": "Actinospicaceae",
+      "path": "families/0006.json",
+      "sha256": "c0c9c6d413ff7d28af9fecd867713b96599963dc3576b754fc87b66184b3f041"
+    },
+    {
+      "family": "Aeromonadaceae",
+      "path": "families/0007.json",
+      "sha256": "052d27472e9dc03a9b1671db8d0aa5dc54347aae91f28257a11a9675e7016ab1"
+    },
+    {
+      "family": "Aggregatilineaceae",
+      "path": "families/0008.json",
+      "sha256": "7efccd53adf8566ed00e8e9991e3e163218f6095011e00961ca0ac4e2b1d7984"
+    },
+    {
+      "family": "Akkermansiaceae",
+      "path": "families/0009.json",
+      "sha256": "c9460bc7d83b2105c19ccbba24e01bfbc9d2b53df191e2167bb31e0a13147a83"
+    },
+    {
+      "family": "Alcaligenaceae",
+      "path": "families/0010.json",
+      "sha256": "1af9248b501db12083b454d3237daa019152a53fe1019f00fd6ab9858fa1e639"
+    },
+    {
+      "family": "Alicyclobacillaceae",
+      "path": "families/0011.json",
+      "sha256": "aee9d1a1822332ef7f4534e657d1c9533425a38b76bf5b65d304b51bbc689904"
+    },
+    {
+      "family": "Alteromonadaceae",
+      "path": "families/0012.json",
+      "sha256": "045d5f68a955b781d294bd03544b1ea977615fce784c5959a3d4ea86f0ed9623"
+    },
+    {
+      "family": "Anaerolineaceae",
+      "path": "families/0013.json",
+      "sha256": "c5094af6120f71b119405d8aae9043f65942347acb70c9679a07ae43353c998c"
+    },
+    {
+      "family": "Anaeromyxobacteraceae",
+      "path": "families/0014.json",
+      "sha256": "1566ddfb931697376d885f736af003d97921da97b95a823a3cd48be07ba71e7e"
+    },
+    {
+      "family": "Anaerovoracaceae",
+      "path": "families/0015.json",
+      "sha256": "cc233dc4d02bf2a6fe3ce90088e36c960465533a2754ed9a54605972c6395fe9"
+    },
+    {
+      "family": "Arcobacteraceae",
+      "path": "families/0016.json",
+      "sha256": "ac6e531951a7b5ec79248104c3b9ee7cbc0b514df7c02222401a87a5283463cd"
+    },
+    {
+      "family": "Armatimonadaceae",
+      "path": "families/0017.json",
+      "sha256": "b61dbd5e5781490c9feae910f3a543eddf9deebbb836079aa1a916047658e56e"
+    },
+    {
+      "family": "Atopobiaceae",
+      "path": "families/0018.json",
+      "sha256": "0dafb7641410f233f8aef6a6c9f1c377b888fb74dd73b32997b1abe5e6aceee9"
+    },
+    {
+      "family": "Azospirillaceae",
+      "path": "families/0019.json",
+      "sha256": "04a93b31f07df3fa480675b9f2cf4670220930a2d3a9dea915cb54d3fe828aa0"
+    },
+    {
+      "family": "Bacillaceae",
+      "path": "families/0020.json",
+      "sha256": "20250d8e0144240d1a0a1a5ad07c5ad4c40211534b50a05eb5d2c2488145ec88"
+    },
+    {
+      "family": "Bacteriovoracaceae",
+      "path": "families/0021.json",
+      "sha256": "4d03ea162fe6a5544c6afb39bebae237094e39dd16b443c70abb11e7d128957a"
+    },
+    {
+      "family": "Bacteroidaceae",
+      "path": "families/0022.json",
+      "sha256": "84785f6310684ece223c809090b4683aa850d763af1e6d8a0872b3d3f013555e"
+    },
+    {
+      "family": "Barnesiellaceae",
+      "path": "families/0023.json",
+      "sha256": "24d298422ef21fcf6fd302cddd103770380edeec940a37eb3f42604db1f46667"
+    },
+    {
+      "family": "Beijerinckiaceae",
+      "path": "families/0024.json",
+      "sha256": "838e2870d3ae171dfc24b0669e16f61685f0ecb057dfdda1157d97553a7ad076"
+    },
+    {
+      "family": "Bifidobacteriaceae",
+      "path": "families/0025.json",
+      "sha256": "240de9f09e460eaea10064ec9d7fdebeaf51827e3e1fb7a5cad121ef8b15d02e"
+    },
+    {
+      "family": "Blastocatellaceae",
+      "path": "families/0026.json",
+      "sha256": "c14dc754c1f62b5fab055d4c711648ec0861faaf6f9d0711ca08dfcc4cd80747"
+    },
+    {
+      "family": "Bryobacteraceae",
+      "path": "families/0027.json",
+      "sha256": "1ff041497706510de70ceaf20ed850c56b49aa101872f20d512ffcfe32592ca5"
+    },
+    {
+      "family": "Burkholderiaceae",
+      "path": "families/0028.json",
+      "sha256": "5f70f0ab085b605a403c61c084bb7134bd5495939a8121f765dd57b0c75e37a7"
+    },
+    {
+      "family": "Butyricicoccaceae",
+      "path": "families/0029.json",
+      "sha256": "3e294aaee8606a0922ba98f43a491d85acbd229b091c5cac53429ed8cfc400cf"
+    },
+    {
+      "family": "CPla-3 termite group",
+      "path": "families/0030.json",
+      "sha256": "8aea6351fe57c79fcb2dd84fcf2c23437a648fab7ade101aa61d9b32b962a24b"
+    },
+    {
+      "family": "Caldilineaceae",
+      "path": "families/0031.json",
+      "sha256": "2b39b9fa8993442240d576696bc3a1193655130d6a0990212f8f4fcdf9592228"
+    },
+    {
+      "family": "Carnobacteriaceae",
+      "path": "families/0032.json",
+      "sha256": "52acf87e245d9b5f1790912dad9ca9002062511547b64d061683bd7dd32ca1dd"
+    },
+    {
+      "family": "Catenulisporaceae",
+      "path": "families/0033.json",
+      "sha256": "325ea509db4f49353c0e2427c001788312791448e960cc26d64ff188c6aaa976"
+    },
+    {
+      "family": "Caulobacteraceae",
+      "path": "families/0034.json",
+      "sha256": "4931308f2d20654e0d6bb2c951d63e738da7e682f46815ee5280f25aa7712f90"
+    },
+    {
+      "family": "Cellulomonadaceae",
+      "path": "families/0035.json",
+      "sha256": "8e9c33e6a7485d3f29c39d7356a27e22aa157cab498436adce97b5a97ea40553"
+    },
+    {
+      "family": "Cellvibrionaceae",
+      "path": "families/0036.json",
+      "sha256": "80870fcc8b7ee340a927701839566cfc371a28e8c1782ba291b6dc07857c6e99"
+    },
+    {
+      "family": "Chitinibacteraceae",
+      "path": "families/0037.json",
+      "sha256": "d027e1b4b1dac523c39c9cca74c7dbf58b1c10494c4517dc2cacd0a2c500450d"
+    },
+    {
+      "family": "Chitinophagaceae",
+      "path": "families/0038.json",
+      "sha256": "8446604334332773a81d3d421a15e6c978b72012efde0e672e85be7ee2b4fade"
+    },
+    {
+      "family": "Chloroflexaceae",
+      "path": "families/0039.json",
+      "sha256": "5c280ec4710be97affeee3d2dd90b8a54d611fdd46e54d2b6561035a881af79a"
+    },
+    {
+      "family": "Chromobacteriaceae",
+      "path": "families/0040.json",
+      "sha256": "0885a50b42d7653dcacdd0c2f82b8f403404325a26f36b26d5749415e7d6b1c0"
+    },
+    {
+      "family": "Chthoniobacteraceae",
+      "path": "families/0041.json",
+      "sha256": "a38b646219666c40793f889bd5bee1b320b1f2e5f65d68ef0312bb7eca943249"
+    },
+    {
+      "family": "Chthonomonadaceae",
+      "path": "families/0042.json",
+      "sha256": "e2d91be34e36e66ef5fb3a437d7e16dba42a9786da8e630b47279a8ab32edfba"
+    },
+    {
+      "family": "Clostridiaceae",
+      "path": "families/0043.json",
+      "sha256": "abf885a0b61d045a4c633d16632b70f9e2a4cda527c4e05725567dccab266aa7"
+    },
+    {
+      "family": "Coleofasciculaceae",
+      "path": "families/0044.json",
+      "sha256": "9a824b63c2dd58c0e3ee2c243ed28d041a0d927225d06f573b673724a5dfea6b"
+    },
+    {
+      "family": "Comamonadaceae",
+      "path": "families/0045.json",
+      "sha256": "38d86252ab8a8a9797949a684ba7b9da1ca0816c5567567284449c4e926490ca"
+    },
+    {
+      "family": "Coriobacteriaceae",
+      "path": "families/0046.json",
+      "sha256": "a67eedc9c58603c88c494ea7ff023674b78768c42e16982d5f33cea316aefcd1"
+    },
+    {
+      "family": "Crocinitomicaceae",
+      "path": "families/0047.json",
+      "sha256": "3538e536de54a30bd581b14db9d7fbd3d25985778f8c3451561c973084c5e1f2"
+    },
+    {
+      "family": "Cryomorphaceae",
+      "path": "families/0048.json",
+      "sha256": "4761e00fbffb83e5862fbceab59ce1a4195b44d2778037c8110c3fdfe715477b"
+    },
+    {
+      "family": "Cryptosporangiaceae",
+      "path": "families/0049.json",
+      "sha256": "993e2f6ea8b8714814f1dfbd532256583d4d11e3ad6c284ade5dd629fc60242f"
+    },
+    {
+      "family": "Cyanobacteriales Incertae Sedis",
+      "path": "families/0050.json",
+      "sha256": "6851c294183189c491b26ef187e621836b413441cee846f11862b29e4033306b"
+    },
+    {
+      "family": "Cyanobiaceae",
+      "path": "families/0051.json",
+      "sha256": "f6d17cdb66b26a1a3805230f4d6fba3fe1e4d3e4a68ae433fae311ca6cbc6091"
+    },
+    {
+      "family": "Cyclobacteriaceae",
+      "path": "families/0052.json",
+      "sha256": "31fb2c73e3f2525d0d2b1cfc704b07b3cbc5b7756c7b154bcbb193d38f9d3714"
+    },
+    {
+      "family": "Cytophagaceae",
+      "path": "families/0053.json",
+      "sha256": "5fadf1bd9e2574a7a291d737b1755b5427b16fe2ac45574cbd3769904726f09c"
+    },
+    {
+      "family": "Deinococcaceae",
+      "path": "families/0054.json",
+      "sha256": "38d7498beaea9770484a4fe6ff05260e4a82754b2f9fc888a725a095f94d129a"
+    },
+    {
+      "family": "Demequinaceae",
+      "path": "families/0055.json",
+      "sha256": "022cf8ff76b673f93ac4e0f68db263b69c635b44253ad7233e4ebf7248da94df"
+    },
+    {
+      "family": "Desulfovibrionaceae",
+      "path": "families/0056.json",
+      "sha256": "0b1a1f16b549c1340a61119c7671580a52dfc23606405b212831ff31f8e9c606"
+    },
+    {
+      "family": "Devosiaceae",
+      "path": "families/0057.json",
+      "sha256": "aa47605d68a6af7a77d9521d21f8b20e9cd0073419527eb487546f4b75bc3c46"
+    },
+    {
+      "family": "Dongiaceae",
+      "path": "families/0058.json",
+      "sha256": "7a277a19faddb1dd80c21e5e0a1a8bcd5a7f838eb78c7d1bfc4abfff208e769c"
+    },
+    {
+      "family": "Eggerthellaceae",
+      "path": "families/0059.json",
+      "sha256": "872ad9634018fd803d2f056b29e311f2bce25870e885d6fc39bcfffb85f06259"
+    },
+    {
+      "family": "Elsteraceae",
+      "path": "families/0060.json",
+      "sha256": "a718646a986921962638a8e5f3566ad6ff327b0d7f26d417c20177eed8ec2647"
+    },
+    {
+      "family": "Enterobacteriaceae",
+      "path": "families/0061.json",
+      "sha256": "325bb499d0ecbb30276a4ca8adb49c0ec65f6b0c0bc5436b000749d5e81c5eae"
+    },
+    {
+      "family": "Enterococcaceae",
+      "path": "families/0062.json",
+      "sha256": "95f172fd3094904f2e7aaba23b5d26f4c9b1efa5ae15254700b40850a9bc19cc"
+    },
+    {
+      "family": "Entotheonellaceae",
+      "path": "families/0063.json",
+      "sha256": "c4dce8ab7316564014935c57d25274dee6de684302802c8cadf9f723709ab8bf"
+    },
+    {
+      "family": "Erysipelatoclostridiaceae",
+      "path": "families/0064.json",
+      "sha256": "5e8bffff45f831a9eede40c42e6db7700239c26d22746854483ab165b0626a69"
+    },
+    {
+      "family": "Erysipelotrichaceae",
+      "path": "families/0065.json",
+      "sha256": "1de11a2a2fe8c14088b80857e8a7e0a68ea88fe5ea64a478aa0c8da2dd09cf96"
+    },
+    {
+      "family": "Exiguobacteraceae",
+      "path": "families/0066.json",
+      "sha256": "252023cce33cffb36a78c22edf0111710eb5aeba112e5e9775c00931a537a811"
+    },
+    {
+      "family": "Fibrobacteraceae",
+      "path": "families/0067.json",
+      "sha256": "3ca11cf47da91ab36477ad587106e1577ca781d176e6c292250cc47114f98e6d"
+    },
+    {
+      "family": "Fimbriimonadaceae",
+      "path": "families/0068.json",
+      "sha256": "860be890124ed1b96932325f36578bfb7ec1c16e1a68df1ffaa2b3c5dbeab406"
+    },
+    {
+      "family": "Flavobacteriaceae",
+      "path": "families/0069.json",
+      "sha256": "0514c4650bfd53f9fc7ae2b6e600e919737b783bf5c8ee9f7f2545c8a21c1cab"
+    },
+    {
+      "family": "Frankiaceae",
+      "path": "families/0070.json",
+      "sha256": "92a412a7dc5722429de2b14534650426db99d47e45d3c9f5bcd1e128616f3d4e"
+    },
+    {
+      "family": "Fusobacteriaceae",
+      "path": "families/0071.json",
+      "sha256": "1199e203f67a3c500025054f722be8dbe4efa13fe8fd81b55c2eb54631bba777"
+    },
+    {
+      "family": "Gaiellaceae",
+      "path": "families/0072.json",
+      "sha256": "84c6fd0e4b3626aa2fd75f503e1f9f83da1753f06ffd283db6c0ea7f8e707d11"
+    },
+    {
+      "family": "Geminicoccaceae",
+      "path": "families/0073.json",
+      "sha256": "0afce897dba22ade3ad11f19834a5a55cd6b000e813075539366b9abb22c6461"
+    },
+    {
+      "family": "Gemmataceae",
+      "path": "families/0074.json",
+      "sha256": "f94bb87afac401ee7680f089efb833d7b7e0faa7dc07cd4e39daece2982868af"
+    },
+    {
+      "family": "Gemmatimonadaceae",
+      "path": "families/0075.json",
+      "sha256": "d015d1720e6f7a32c527b61ca09715224201da233b650987cb8cc16510bc0358"
+    },
+    {
+      "family": "Geobacteraceae",
+      "path": "families/0076.json",
+      "sha256": "ebbf5af1067042b6382ab1fc04de543ed305a280e36ad291f70cd90b45389d11"
+    },
+    {
+      "family": "Geodermatophilaceae",
+      "path": "families/0077.json",
+      "sha256": "80c5b101493344e98e0cba350a968d8a2b963c54116ddbfb2171907b1d0886f9"
+    },
+    {
+      "family": "Glycomycetaceae",
+      "path": "families/0078.json",
+      "sha256": "0975f47bba6791c69896a2cd1aee10b4379692189c89e6070f9e1e069a0ef795"
+    },
+    {
+      "family": "Haliangiaceae",
+      "path": "families/0079.json",
+      "sha256": "a40342a7473d0914b8e0019795d27cfbfcc36acf60ef1b3d83daff6a9d6c6eb3"
+    },
+    {
+      "family": "Halieaceae",
+      "path": "families/0080.json",
+      "sha256": "e5c866a9d502ed6e3571b376cc5387874832a036fd4a2808c7a2a01c0287c6e5"
+    },
+    {
+      "family": "Herpetosiphonaceae",
+      "path": "families/0081.json",
+      "sha256": "c43c379a89ed05d8501c67b600d2eef95a111f850e191bf1361a9c25a1ab90cd"
+    },
+    {
+      "family": "Holosporaceae",
+      "path": "families/0082.json",
+      "sha256": "f894cfe06bd0f6520a925692fda20d15314d6ea46466f9d712eef1c98c0b3a69"
+    },
+    {
+      "family": "Hymenobacteraceae",
+      "path": "families/0083.json",
+      "sha256": "29ab27d517a91cdec25eab2d95704ec1a627adb1c99b313bafc77e3e163306e9"
+    },
+    {
+      "family": "Hyphomicrobiaceae",
+      "path": "families/0084.json",
+      "sha256": "e4d700e066c7baeee78653e05308ac7f46cf57f0fcb17bc2eb6bb4baa9c55877"
+    },
+    {
+      "family": "Hyphomicrobiales Incertae Sedis",
+      "path": "families/0085.json",
+      "sha256": "3bea2afb7be5cdeece0ca8874c84e0258735bc520ded02aefd3180c87adcdf1c"
+    },
+    {
+      "family": "Hyphomonadaceae",
+      "path": "families/0086.json",
+      "sha256": "3b5b13339c21c69039077001ac6895c8ebbbd8419e88ad7eaf5f799b2ffa378e"
+    },
+    {
+      "family": "Iamiaceae",
+      "path": "families/0087.json",
+      "sha256": "8e9511a82e13cdb91189e025c5f2ba4e61103811027348dd9836aae082ea1e01"
+    },
+    {
+      "family": "Ilumatobacteraceae",
+      "path": "families/0088.json",
+      "sha256": "2759e351e220663558abb8568e021456b24a71642874d4f4677a9ad00fc9004f"
+    },
+    {
+      "family": "Inquilinaceae",
+      "path": "families/0089.json",
+      "sha256": "5b1483c786b690ae7b3eccc5cd9325186235cb50b9f844c8a5e08f41811e20f0"
+    },
+    {
+      "family": "Intrasporangiaceae",
+      "path": "families/0090.json",
+      "sha256": "94d4913fbc535db3e6ad47e28b122033fb69cf9e88c883fa6c78e55b3b5b122f"
+    },
+    {
+      "family": "Isosphaeraceae",
+      "path": "families/0091.json",
+      "sha256": "5829d875d46621e1e36bc7466b0cdb6c76785c183903be7ca9d4765cbe67f88e"
+    },
+    {
+      "family": "Kineosporiaceae",
+      "path": "families/0092.json",
+      "sha256": "7880532c24c8d7e8fa61e637d1532d8361fa2e0011c428295f4bb25473b7b352"
+    },
+    {
+      "family": "Koribacteraceae",
+      "path": "families/0093.json",
+      "sha256": "93c8e51edebfba5fdff59c33a38b23ba918b8c066c36ac0cc23bf160e190cc23"
+    },
+    {
+      "family": "Ktedonobacteraceae",
+      "path": "families/0094.json",
+      "sha256": "15208d364659f9878c8a6929feb07e52e659eb728a49d9b9d7df8f5252254307"
+    },
+    {
+      "family": "Labraceae",
+      "path": "families/0095.json",
+      "sha256": "dc91bc5c85fcb55fdbfe6dfb5cc25cbc423695edb54830e659bc7bdd88ab7f3b"
+    },
+    {
+      "family": "Lachnospiraceae",
+      "path": "families/0096.json",
+      "sha256": "c95b3adc99b13aeb2e8435301d46038a29ab6d4455479d42e7c3f5d6352e56a6"
+    },
+    {
+      "family": "Lactobacillaceae",
+      "path": "families/0097.json",
+      "sha256": "f6ade0148d016dd2615af1b48db973c2c722cc986cd930ffcfc173e2d013611c"
+    },
+    {
+      "family": "Latescibacteraceae",
+      "path": "families/0098.json",
+      "sha256": "a086fe117fb77b4d8b7670b296f28f6a61933e8b11ffbca351fa8ac688c7ccff"
+    },
+    {
+      "family": "Legionellaceae",
+      "path": "families/0099.json",
+      "sha256": "1a0608c9b60a58086045a191c3754896e3f01ea8aad7fe424e1e6736df62ed5c"
+    },
+    {
+      "family": "Leptolyngbyaceae",
+      "path": "families/0100.json",
+      "sha256": "42517ebd589689f1b59d2a83dc4a6e278eff62956f02ad89951bc46fad9ff695"
+    },
+    {
+      "family": "Longimicrobiaceae",
+      "path": "families/0101.json",
+      "sha256": "d441e12f8473505aa9e579cffd9af982b4b8430de73b7cd8c6e1ffda0ee46c17"
+    },
+    {
+      "family": "Lysobacteraceae",
+      "path": "families/0102.json",
+      "sha256": "e59725b470eeea5891eb1366fdd697c368fced7731941196d2b7b4bdb3e71fd6"
+    },
+    {
+      "family": "Magnetospirillaceae",
+      "path": "families/0103.json",
+      "sha256": "6d7056a1ce104e284802267823678daf7dafd212bc256ce149ce2cba99790163"
+    },
+    {
+      "family": "Marinifilaceae",
+      "path": "families/0104.json",
+      "sha256": "558fd342ab47f9554deb1b585873ba23025b669e698d69772aa68627bdad7043"
+    },
+    {
+      "family": "Methylacidiphilaceae",
+      "path": "families/0105.json",
+      "sha256": "ffea4b354835bb8c53c10b65b51bc65bac83f7b25aaadb7573bae2250e87072b"
+    },
+    {
+      "family": "Methyloligellaceae",
+      "path": "families/0106.json",
+      "sha256": "b4771e545e144bba097071cc8ee43a485447156d3f8d8eb6938e7c538d493bea"
+    },
+    {
+      "family": "Methylophilaceae",
+      "path": "families/0107.json",
+      "sha256": "f70f3d012e7712c7bcbc81fa381b6ac3f82ca19fa5818b5d1d65dab2a017834d"
+    },
+    {
+      "family": "Microbacteriaceae",
+      "path": "families/0108.json",
+      "sha256": "0e34ecb949e17a6615545630ffee86a6af0be4657a61bb64b0768de024f32f02"
+    },
+    {
+      "family": "Micrococcaceae",
+      "path": "families/0109.json",
+      "sha256": "f64a0c23bcb58e094012aef368de81f5884aa193c23cb9c62b4eb137c7110523"
+    },
+    {
+      "family": "Microcystaceae",
+      "path": "families/0110.json",
+      "sha256": "63f5ef4179522313dc7b3c1eae123bacd69caf91bfd2be1dd95b58ef5ac95b3b"
+    },
+    {
+      "family": "Micromonosporaceae",
+      "path": "families/0111.json",
+      "sha256": "1fb04e4e4d13219e25dfafb0b80d9d62104341344dfab8ee0500e3384c3d5274"
+    },
+    {
+      "family": "Micropepsaceae",
+      "path": "families/0112.json",
+      "sha256": "3779a10592f05bdcac8e6859b383b8e82d73401f8fbf558eec22ca4c396607f2"
+    },
+    {
+      "family": "Microscillaceae",
+      "path": "families/0113.json",
+      "sha256": "77d33ff1ddd748bff94ff9f719082981c56955880ee1a16ef5bcf040deb0a3c6"
+    },
+    {
+      "family": "Microtrichaceae",
+      "path": "families/0114.json",
+      "sha256": "913f1d07fdc092f70799a0ac19bbb9500472f81c047948b2f114e29ffd87275e"
+    },
+    {
+      "family": "Midichloriaceae",
+      "path": "families/0115.json",
+      "sha256": "68c553ee6ebe2c27957ee543592d6e57b49d5f0f3845b83aac42253697155ab4"
+    },
+    {
+      "family": "Monoglobaceae",
+      "path": "families/0116.json",
+      "sha256": "b18c212d5dc75b0e8631814f3b22539b2760d77852d9eec389de021ced2674e2"
+    },
+    {
+      "family": "Moraxellaceae",
+      "path": "families/0117.json",
+      "sha256": "14a72227f4af09f60a59c7714fe2407c95e7aae076f73dbcf8b01ad74b4ca537"
+    },
+    {
+      "family": "Muribaculaceae",
+      "path": "families/0118.json",
+      "sha256": "fec5c5caea0c74457b5fbf660a00a699b4d84d2db95c18abac9959e18dbc0c16"
+    },
+    {
+      "family": "Mycobacteriaceae",
+      "path": "families/0119.json",
+      "sha256": "b42a3c940732737492004dfa6a4cf01f2c3aa8ae61ce08f189a77944d9c1511d"
+    },
+    {
+      "family": "Mycoplasmataceae",
+      "path": "families/0120.json",
+      "sha256": "fc6bbef10177d8341dce6fc8dfe759e924c5463b1e5d167a01045b64bc71552c"
+    },
+    {
+      "family": "Myxococcaceae",
+      "path": "families/0121.json",
+      "sha256": "975ddf6863b57065d72e092599e8dbd6e69544c96fd18eb24c55ee644015da36"
+    },
+    {
+      "family": "NS11-12 marine group",
+      "path": "families/0122.json",
+      "sha256": "480eb7d96f81774afd77c09b0b689c9d9224285119ee0d532df6a45b05a5b96f"
+    },
+    {
+      "family": "NS9 marine group",
+      "path": "families/0123.json",
+      "sha256": "86b514f6a1711be37eb613f9a24de94ab882b4dacd6ef08e2213d28f640b536e"
+    },
+    {
+      "family": "Nakamurellaceae",
+      "path": "families/0124.json",
+      "sha256": "ca47eb1287ce40d432a9ea8507434391e8e52935982eaa06b15bf49c07c58d94"
+    },
+    {
+      "family": "Nannocystaceae",
+      "path": "families/0125.json",
+      "sha256": "bc62e928b2cb0405dfb74352c5a20e51232dd6ddb8bef8cc14629d5a89df1764"
+    },
+    {
+      "family": "Nevskiaceae",
+      "path": "families/0126.json",
+      "sha256": "71ebbe6f4a2219c07699529d4346c4dc1ea654e188fb7ee835d92ebcc2b9a722"
+    },
+    {
+      "family": "Nitrosomonadaceae",
+      "path": "families/0127.json",
+      "sha256": "8b370a63b1afd4876e36ce5798a86a8fe9e622ba5564ec10e67a719fef35409c"
+    },
+    {
+      "family": "Nitrospiraceae",
+      "path": "families/0128.json",
+      "sha256": "0adba057472afb84744d4adeae85090ef4d707840b96e749286dc3fadcc4d080"
+    },
+    {
+      "family": "Nocardiaceae",
+      "path": "families/0129.json",
+      "sha256": "e2348ed49c456c2968dcb7e6d5c3de39a39af5e351b2d9a13f16e425115cf0e1"
+    },
+    {
+      "family": "Nocardioidaceae",
+      "path": "families/0130.json",
+      "sha256": "2af2ec6b77fc06832a6eb3a9990abd2fb01ebb150397d98722ff80de44137aaa"
+    },
+    {
+      "family": "Nostocaceae",
+      "path": "families/0131.json",
+      "sha256": "772f151127a1a41e61e8872aa875674c99ba4bab3c96840be218a1cd5479c922"
+    },
+    {
+      "family": "Obscuribacteraceae",
+      "path": "families/0132.json",
+      "sha256": "d7c74c5ae3a4bad1d7ab41bdde6465d27c427420967ada978b3ed90edff1cfe6"
+    },
+    {
+      "family": "Oligoflexaceae",
+      "path": "families/0133.json",
+      "sha256": "177d98588528ce0bfcf63a54420619ee5a56cf1f093c7befa0261db54041e6f8"
+    },
+    {
+      "family": "Omnitrophaceae",
+      "path": "families/0134.json",
+      "sha256": "67794987b1560b860b4435c3dbaab2b41bb7b71019c1f549e457dc782a6591bf"
+    },
+    {
+      "family": "Opitutaceae",
+      "path": "families/0135.json",
+      "sha256": "0a124a99fd9245955bd0251ff3a62cebe81e60260835f61ed2a48ad9d3adb5ad"
+    },
+    {
+      "family": "Oscillospiraceae",
+      "path": "families/0136.json",
+      "sha256": "6beb0a065713caf45440bcd8d06f4a00665ec427ce460cfc07062608b8dc329b"
+    },
+    {
+      "family": "Oxalobacteraceae",
+      "path": "families/0137.json",
+      "sha256": "09b4ae16c9116b009614bb24112aac0d1224fc3d2924e5a4bb6ede7cfe88fdff"
+    },
+    {
+      "family": "Paenibacillaceae",
+      "path": "families/0138.json",
+      "sha256": "56c6a5daa02bfc2fee4bc31723d525e85b6517306cae4ccab96cf102f9b79f14"
+    },
+    {
+      "family": "Paracaedibacteraceae",
+      "path": "families/0139.json",
+      "sha256": "453a034c2f5e3957d7f760b5b51d7fe92ac491d45c3385b024a67415a5ec622b"
+    },
+    {
+      "family": "Parachlamydiaceae",
+      "path": "families/0140.json",
+      "sha256": "9f73b93b04062d974c059b308906b3a4bd146ff8eb9de8dc7b263501672e9ced"
+    },
+    {
+      "family": "Paracoccaceae",
+      "path": "families/0141.json",
+      "sha256": "b1adb6f8278859d8bad387fea0bf9b0fc199e33b36b415d748997f7b1a6b7045"
+    },
+    {
+      "family": "Pasteurellaceae",
+      "path": "families/0142.json",
+      "sha256": "37a4ec842ebe02b61e698c52a9f22a5a59035d95cdc2b137674fae8a4e82b7e1"
+    },
+    {
+      "family": "Pedosphaeraceae",
+      "path": "families/0143.json",
+      "sha256": "91a92f64eb65ee487297717c1b603f13f45602be539974d78f4b90f2710fe0c8"
+    },
+    {
+      "family": "Peptostreptococcaceae",
+      "path": "families/0144.json",
+      "sha256": "d4b9ec50be05a9200f5b196aa9a23068440aa46c57f7c908c8b3b7e30f6060ca"
+    },
+    {
+      "family": "Phaselicystaceae",
+      "path": "families/0145.json",
+      "sha256": "e59a7abf29cd2139880b96e8027567d87e2eb9b98559edb78f211350d6726df6"
+    },
+    {
+      "family": "Phormidiaceae",
+      "path": "families/0146.json",
+      "sha256": "486cd9ea06b671d3597aaf81860296ee095c76b841412e77b89c7778a2fb6885"
+    },
+    {
+      "family": "Phycisphaeraceae",
+      "path": "families/0147.json",
+      "sha256": "b6ab7266ad42cca1ab41629d6d105fe4772f662851ba1778a7d829700520e757"
+    },
+    {
+      "family": "Pirellulaceae",
+      "path": "families/0148.json",
+      "sha256": "2d8d6fa541d87e261de7d0aafae56d12491bb3cc3a5559a657f2ccfa138483ab"
+    },
+    {
+      "family": "Planococcaceae",
+      "path": "families/0149.json",
+      "sha256": "d50870e353da02c3593b780d4ec80e9d95e723561ebe30bf8c2e3cc009e9b25e"
+    },
+    {
+      "family": "Polyangiaceae",
+      "path": "families/0150.json",
+      "sha256": "85abe32c5755f9fdcf502d99b48381cbe9dda745957b90686098ee69d30ce4d3"
+    },
+    {
+      "family": "Porphyromonadaceae",
+      "path": "families/0151.json",
+      "sha256": "a9e2e0c5434cb8d1f9a365f4f53d40b31eeefff85473bcecfa83dc0528c948a8"
+    },
+    {
+      "family": "Prevotellaceae",
+      "path": "families/0152.json",
+      "sha256": "a90752d4fa6b2c480ded952c3641098af0f0c6674082d8c38524b5c6d7cd7521"
+    },
+    {
+      "family": "Promicromonosporaceae",
+      "path": "families/0153.json",
+      "sha256": "cd69edabe32fd36f3d9a9e024b5847a4366a1c235033e37dad0ba826c4744c52"
+    },
+    {
+      "family": "Propionibacteriaceae",
+      "path": "families/0154.json",
+      "sha256": "7a40db0f3071ef59faf3dfc41f416270680e54f97b05e4ea79a705a714a42d90"
+    },
+    {
+      "family": "Pseudanabaenaceae",
+      "path": "families/0155.json",
+      "sha256": "ca7e57ef4376a44a7642eb10195971b348a16f3e7b9d815e13c35d5b12b3a20d"
+    },
+    {
+      "family": "Pseudobdellovibrionaceae",
+      "path": "families/0156.json",
+      "sha256": "d4acc1c6e59c9ee7daea4bdf4caed1d92d5f9913b08d8be1bb169970256a5784"
+    },
+    {
+      "family": "Pseudohongiellaceae",
+      "path": "families/0157.json",
+      "sha256": "b72b03d614b2b62d8137952b812958aad0246072f3beac90dcfd47597ec36afe"
+    },
+    {
+      "family": "Pseudomonadaceae",
+      "path": "families/0158.json",
+      "sha256": "81cbd55371d1c2ce35db1f3a383e4622aa4c6ee39288b1bf221b1aea2d7d5325"
+    },
+    {
+      "family": "Pseudonocardiaceae",
+      "path": "families/0159.json",
+      "sha256": "4c7fe2cefca336140bfb2dd2bd69ea876acbd02f96e1ff2292e2487022646eca"
+    },
+    {
+      "family": "Pyrinomonadaceae",
+      "path": "families/0160.json",
+      "sha256": "7b8b5ce53dfe91cd43496e4cc72c42535fc529ec30ecc01bd1136dc5c7931ca2"
+    },
+    {
+      "family": "Reyranellaceae",
+      "path": "families/0161.json",
+      "sha256": "0362e5fa8f2943790c6945323e2df13c5739e23becd088266f9ac24bb804022a"
+    },
+    {
+      "family": "Rhizobiaceae",
+      "path": "families/0162.json",
+      "sha256": "504f82ab197e8efb932222ba1534a874b3faf0fe7d5e9e373f8efce3483294e1"
+    },
+    {
+      "family": "Rhodanobacteraceae",
+      "path": "families/0163.json",
+      "sha256": "121fe62b2a417b8f33f4b8fb94595fa33fce562a17e0cc119274c4a6f0a110fd"
+    },
+    {
+      "family": "Rhodocyclaceae",
+      "path": "families/0164.json",
+      "sha256": "853a5c02ff2571c7fcac7ac993e0600e1b27bd3091ccf59a1647798a0dac6b72"
+    },
+    {
+      "family": "Rhodomicrobiaceae",
+      "path": "families/0165.json",
+      "sha256": "fecd7d4df792bbf30fec89c5a42201cb6520b072bf12161c312c904efa55dbee"
+    },
+    {
+      "family": "Rhodospirillaceae",
+      "path": "families/0166.json",
+      "sha256": "9a5d0600453a32cfe3efd56b973dcc3715e46ab92f3bb51629c1ff3b360ca42d"
+    },
+    {
+      "family": "Rickettsiaceae",
+      "path": "families/0167.json",
+      "sha256": "8c7f654ba145c1c379342e8373f8d94b50408774c79377d3943c3978a5d014db"
+    },
+    {
+      "family": "Rickettsiellaceae",
+      "path": "families/0168.json",
+      "sha256": "a89a6c8c503db569f873807281d7755425590c6840bea2bd4181e473a89021b2"
+    },
+    {
+      "family": "Rikenellaceae",
+      "path": "families/0169.json",
+      "sha256": "89bb882af26012127037baaaa02472346f6b7ccb4a9b5da65d397b477f4e2e7b"
+    },
+    {
+      "family": "Roseiflexaceae",
+      "path": "families/0170.json",
+      "sha256": "6dea878e4e5312c00da9b54908e2700363a9ad017a0d5f6d53119674e164b4b4"
+    },
+    {
+      "family": "Rubinisphaeraceae",
+      "path": "families/0171.json",
+      "sha256": "8b1851dd15f223065659da06acd28049d00a3bd2f8c7a5411c557b8371d8d6af"
+    },
+    {
+      "family": "Rubritaleaceae",
+      "path": "families/0172.json",
+      "sha256": "84dd858e20c794092ab2911e13c2fab099c6acd50e6d969f4ef4feda91b1160c"
+    },
+    {
+      "family": "Rubrobacteriaceae",
+      "path": "families/0173.json",
+      "sha256": "da146bd315146aebbd97b297bc44c31149be7836a0141f669daef578802b902a"
+    },
+    {
+      "family": "Ruminococcaceae",
+      "path": "families/0174.json",
+      "sha256": "7d565630f643228e7d02d22effb443d7deec209675b00b584f42df8a0d4afe46"
+    },
+    {
+      "family": "Saccharimonadaceae",
+      "path": "families/0175.json",
+      "sha256": "d921567595841317277411f123c68debb2280e9dbe37e211943136832d10649e"
+    },
+    {
+      "family": "Sandaracinaceae",
+      "path": "families/0176.json",
+      "sha256": "176cec4124a2034f22d79ce4c582a8ba27a0057556e7937495e488e77be36512"
+    },
+    {
+      "family": "Saprospiraceae",
+      "path": "families/0177.json",
+      "sha256": "3f26400ff6f59ef009236d584cf1446f565b061d35161eed3ca5d43ac05a0253"
+    },
+    {
+      "family": "Schlesneriaceae",
+      "path": "families/0178.json",
+      "sha256": "0fc77477ef0ea74e698827673b3a3405cd6211d265ad03e0b3c0fd973d072772"
+    },
+    {
+      "family": "Selenomonadaceae",
+      "path": "families/0179.json",
+      "sha256": "dc86e8a34f8368012eda8244972fd30c1883674fc76f86deebfa6cf62b6fd530"
+    },
+    {
+      "family": "Simkaniaceae",
+      "path": "families/0180.json",
+      "sha256": "1b70a8b2e257bf02e4060351b9ed9e886cd22f3f0284a33d25981f524cfa53c3"
+    },
+    {
+      "family": "Solibacteraceae",
+      "path": "families/0181.json",
+      "sha256": "3e5c6c84232ff5d26a12175ff11e37a79647ccfa495cee77069be4e3d479b60d"
+    },
+    {
+      "family": "Solirubrobacteraceae",
+      "path": "families/0182.json",
+      "sha256": "079b55f3798ab9a1e7f8105d6c2b404beee106a26aaa8d0991519b46b392b369"
+    },
+    {
+      "family": "Sphingobacteriaceae",
+      "path": "families/0183.json",
+      "sha256": "ca47d3b451692ea750bff651f54ae4d2dd5f6e5851da38093217ad2ecc80039b"
+    },
+    {
+      "family": "Sphingomonadaceae",
+      "path": "families/0184.json",
+      "sha256": "d27dfa7cb00661cc8827c3350b8122dfb08e22845824a091aa8476b0c5b51e64"
+    },
+    {
+      "family": "Spirosomataceae",
+      "path": "families/0185.json",
+      "sha256": "9a070116798fb2e599fba9f4783f966f175169083996f0d201b90cb2ca692082"
+    },
+    {
+      "family": "Sporichthyaceae",
+      "path": "families/0186.json",
+      "sha256": "fce391e491b95f69b4d177691d9a863a009c7cb417f2ae8acc7ba5c0e49abb21"
+    },
+    {
+      "family": "Sporomusaceae",
+      "path": "families/0187.json",
+      "sha256": "1165b025a342409fe5d27327413b71392b038a4bb73567e0ec2a09bc40296bcf"
+    },
+    {
+      "family": "Steroidobacteraceae",
+      "path": "families/0188.json",
+      "sha256": "d2eb196294913251b28d50ed1475e065e261294047180d7665a77d417746945f"
+    },
+    {
+      "family": "Streptococcaceae",
+      "path": "families/0189.json",
+      "sha256": "5917f131854ffe549eb4a4fac2360e1833f0638dff700931a06aa40a871d0d29"
+    },
+    {
+      "family": "Streptomycetaceae",
+      "path": "families/0190.json",
+      "sha256": "9eb77a934c6e4e1b365993d2d5adf79a58e92a91c013384b1a316e6ecb877706"
+    },
+    {
+      "family": "Streptosporangiaceae",
+      "path": "families/0191.json",
+      "sha256": "d1159af2770b8198f25b8671b4a44c59de1cbbfea102d2931198a6031c57439f"
+    },
+    {
+      "family": "Streptosporangiales Incertae Sedis",
+      "path": "families/0192.json",
+      "sha256": "dd33a19d2d84e346808dd6a07ef9823670fcd53b75b666bf9685bfecc5561e77"
+    },
+    {
+      "family": "Sumerlaeaceae",
+      "path": "families/0193.json",
+      "sha256": "13841cc90ad367b333e4bf18d2689254b9c1806f4693516921be6db5009ec588"
+    },
+    {
+      "family": "Sutterellaceae",
+      "path": "families/0194.json",
+      "sha256": "e827b445b0aa7f2afc38114aab3c9a165ee43258b6826f722a193ee18a442ab1"
+    },
+    {
+      "family": "Tannerellaceae",
+      "path": "families/0195.json",
+      "sha256": "77cc3587cc539ce4602b75d1921137468da3f438e97d8b1003712b8494e15bca"
+    },
+    {
+      "family": "Tepidisphaeraceae",
+      "path": "families/0196.json",
+      "sha256": "1fc297149b6e34a916d1923f307b287eb097547708244570536235f8dbdbe50a"
+    },
+    {
+      "family": "Terrimicrobiaceae",
+      "path": "families/0197.json",
+      "sha256": "b2cde5f230779a6fc9fb32e8ae9b595c0abf210ebe5bc7c94818bf4f48057015"
+    },
+    {
+      "family": "Thermoactinomycetaceae",
+      "path": "families/0198.json",
+      "sha256": "e31934884fa42bedda60a5cefae6ba79e209d3e4ff3353a71092928a9d872622"
+    },
+    {
+      "family": "Thermoanaerobaculaceae",
+      "path": "families/0199.json",
+      "sha256": "98c86f7b9d8befc454b1fb942568379e60f362bc82d84e427d7e95747671b99a"
+    },
+    {
+      "family": "Thermomicrobiaceae",
+      "path": "families/0200.json",
+      "sha256": "8559b68d11181373db2e747ef082fb5ef360d078b93a426f8fd1e8e301431239"
+    },
+    {
+      "family": "Thermomonosporaceae",
+      "path": "families/0201.json",
+      "sha256": "8dfdd8b6ac060c54d703808c93f20d79b7b145793efa70f4db99bcb607cf568b"
+    },
+    {
+      "family": "Vampirovibrionaceae",
+      "path": "families/0202.json",
+      "sha256": "fc1dec2fe5d0a950392742adc7424ec471a65e82cca308af9bd0290c22b0bfd3"
+    },
+    {
+      "family": "Veillonellaceae",
+      "path": "families/0203.json",
+      "sha256": "3381e656a26bcc2c8b8c777131f24ba3f49a1b4eabc8fcf2a65a75da1a9599ff"
+    },
+    {
+      "family": "Vermiphilaceae",
+      "path": "families/0204.json",
+      "sha256": "df72ed524085a5c91a84799bf5557d00560f82bc44ff6f0f25c348ee38e67d2b"
+    },
+    {
+      "family": "Verrucomicrobiaceae",
+      "path": "families/0205.json",
+      "sha256": "bd7fb1280799f7c40a58bcd72ad8f51359f31438135bdc53f2d3d1cba9342560"
+    },
+    {
+      "family": "Vicinamibacteraceae",
+      "path": "families/0206.json",
+      "sha256": "1580fa8b2ab0bdc26e66f96389a0d4b9afb5256dbb8fe3fca21c85c6b7ab3eb9"
+    },
+    {
+      "family": "WD2101 soil group",
+      "path": "families/0207.json",
+      "sha256": "68002862a534038d4251db9c94f0d62d34610018b42cecea881347045ee37ff9"
+    },
+    {
+      "family": "Weeksellaceae",
+      "path": "families/0208.json",
+      "sha256": "1ed1de9310af7cc283cf3ac9880b3f548813a11101319fca8ee506cc44b710dc"
+    },
+    {
+      "family": "Woeseiaceae",
+      "path": "families/0209.json",
+      "sha256": "3f8ab3fec8cafc8abf27e3ae1edb5813f4e47e711fe943bb48a750b64814a9a5"
+    },
+    {
+      "family": "Xanthobacteraceae",
+      "path": "families/0210.json",
+      "sha256": "01d46a36b4721a2afbb28507b3d84ca08355675c37bbde6d1ccab72d33bc72f6"
+    },
+    {
+      "family": "Xiphinematobacteraceae",
+      "path": "families/0211.json",
+      "sha256": "99c9cbf29627ed82bae76df1f8fa98965a04c3741bdaac6d5a55ef7c310f4e86"
+    },
+    {
+      "family": "Yersiniaceae",
+      "path": "families/0212.json",
+      "sha256": "3dfb3a71fabc3bada76290a6159481470eb94fd253c2f59742fb885b42587729"
+    },
+    {
+      "family": "[Eubacterium] coprostanoligenes group",
+      "path": "families/0213.json",
+      "sha256": "2be1958d31ce5dac195aa0b6c23c3b6314f1659485100794c40fef4135d6bb55"
+    }
+  ],
+  "conditional_domain_counts": {
+    "NOT_ASSESSABLE": 102,
+    "SOME_RHO": 47,
+    "NONE": 52,
+    "ALL_RHO": 13
+  },
+  "formal_P1_count": null,
+  "input_sha256": "cf55e017d3746a2c12e5726d18f6c59577162d5e0f6df059b9acb0f65c67a01f",
+  "actual_biological_inference_release": false
+}

@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-11T07:47:02.196076+00:00",
+  "repository": "cran/MicrobiomeStat",
+  "commit": "67a6cc7d7254a67dcbde91f7fba7819405345626",
+  "files": [
+    {
+      "path": "upstream/MicrobiomeStat_DESCRIPTION",
+      "url": "https://raw.githubusercontent.com/cran/MicrobiomeStat/67a6cc7d7254a67dcbde91f7fba7819405345626/DESCRIPTION",
+      "sha256": "3fdd5e6f6393cdaa7fb1dc4d43f411766ed7a96e3d61382e65b87907073c6f2b",
+      "bytes": 1730
+    },
+    {
+      "path": "upstream/MicrobiomeStat_R_linda.R",
+      "url": "https://raw.githubusercontent.com/cran/MicrobiomeStat/67a6cc7d7254a67dcbde91f7fba7819405345626/R/linda.R",
+      "sha256": "a91a48bec42a1de03a5b5459dcf287cb858ed3abb15384eb030e5c9a3529ae65",
+      "bytes": 29345
+    }
+  ],
+  "execution": "Current CRAN MicrobiomeStat 1.4 unmodified LinDA function source. Load only dependencies used by the fixed-effect route. No alternate algorithm or approximation."
+}

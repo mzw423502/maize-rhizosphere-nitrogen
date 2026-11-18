@@ -1,0 +1,340 @@
+{
+  "family": "Entotheonellaceae",
+  "input_source": "BOUND_INPUT_EXACT_FAMILY_KEY",
+  "primary_experiments": [
+    "A",
+    "B"
+  ],
+  "source_diagnostics": {
+    "A": "ABSENT",
+    "B": "ORIGINAL_DIAGNOSTICS_RETAINED",
+    "C": "ORIGINAL_DIAGNOSTICS_RETAINED"
+  },
+  "formal_P1_status": "NOT_RELEASED",
+  "P1_count": null,
+  "signature_weight": null,
+  "Bonn_release": false,
+  "P": null,
+  "FDR": null,
+  "estimand": "MODEL_CONDITIONAL_AB_NATURAL_LOG_ASSOCIATION",
+  "C_auxiliary": {
+    "role": "AUXILIARY_NOT_POOLED_NOT_AN_AB_GATE",
+    "presence": "PRESENT",
+    "source_record": {
+      "experiment": "C",
+      "family": "Entotheonellaceae",
+      "role": "AUXILIARY",
+      "year_count": 2,
+      "diagnostic_stratum": "ORIGINAL_DIAGNOSTICS_RETAINED",
+      "years": [
+        {
+          "cohort": "C_2017",
+          "family": "Entotheonellaceae",
+          "diagnostic_state": "FINAL_FIT_FLAG",
+          "diagnostics_literal": {
+            "family": "Entotheonellaceae",
+            "fit_returned": true,
+            "nobs": 36,
+            "coefficient_names": [
+              "(Intercept)",
+              "NLN",
+              "spatial_pair[\"continuous\",\"2\"]",
+              "spatial_pair[\"rotated\",\"1\"]",
+              "spatial_pair[\"rotated\",\"2\"]",
+              "period08",
+              "period09"
+            ],
+            "N_raw_estimate": 0.355339919699508,
+            "N_raw_standard_error": 0.285108186163698,
+            "N_fit_df": 28.9999999990862,
+            "fixed_basis_exact": true,
+            "dropped_columns": null,
+            "singular": true,
+            "optimizer_code": 0,
+            "convergence_messages": "boundary (singular) fit: see help('isSingular')",
+            "variance_components": [
+              {
+                "grp": "subplot_period_uid",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0,
+                "sdcor": 0
+              },
+              {
+                "grp": "allocation_unit",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0,
+                "sdcor": 0
+              },
+              {
+                "grp": "Residual",
+                "var1": null,
+                "var2": null,
+                "vcov": 0.649173222788822,
+                "sdcor": 0.80571286621775
+              }
+            ],
+            "qualified_numerical_fit": false
+          },
+          "input_support_literal": {
+            "family": "Entotheonellaceae",
+            "necessary_complete_formula_support_failed": false,
+            "nonzero_fixed_rank": 7,
+            "fixed_rank_without_N": 6,
+            "N_column_independently_estimable_in_fixed_mean_algebra": true,
+            "support_flags": []
+          },
+          "source_status": "ESTIMATE_PRESENT_NOT_REQUALIFIED_FOR_INFERENCE",
+          "N_contrast": "Low_N minus Std_N(180 kg/ha maize)",
+          "reference_context": "Same rank and coefficient; year-specific common-bias feature sets 155/155; no identical offset assumption",
+          "unit_count": 8,
+          "pair_count": 4,
+          "lfc_literal": "0.355339919699508",
+          "se_literal": "0.346726079197563",
+          "dof_literal": "28.9999999990862",
+          "source_path": "15_FINAL_AUDIT/PHASE5_AC_YEAR_MODELS_20261009_V1/actual/C_2017_observed/N_ASSOCIATIONS_RAW.tsv",
+          "source_line": 42,
+          "source_sha256": "f035b07ecdc43ba9e5be53ee39a249b295b3b3b2530db71e23cd46fbc8ad6b58"
+        },
+        {
+          "cohort": "C_2018",
+          "family": "Entotheonellaceae",
+          "diagnostic_state": "NO_CAPTURED_FINAL_FLAG",
+          "diagnostics_literal": {
+            "family": "Entotheonellaceae",
+            "fit_returned": true,
+            "nobs": 38,
+            "coefficient_names": [
+              "(Intercept)",
+              "NLN",
+              "spatial_pair[\"continuous\",\"2\"]",
+              "spatial_pair[\"rotated\",\"1\"]",
+              "spatial_pair[\"rotated\",\"2\"]",
+              "period08",
+              "period09"
+            ],
+            "N_raw_estimate": 0.82727561027364,
+            "N_raw_standard_error": 0.276575653303504,
+            "N_fit_df": 2.51121834030844,
+            "fixed_basis_exact": true,
+            "dropped_columns": null,
+            "singular": false,
+            "optimizer_code": 0,
+            "convergence_messages": null,
+            "variance_components": [
+              {
+                "grp": "subplot_period_uid",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0.109478194087996,
+                "sdcor": 0.330874891897219
+              },
+              {
+                "grp": "allocation_unit",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0.00438308078957564,
+                "sdcor": 0.0662048396235173
+              },
+              {
+                "grp": "Residual",
+                "var1": null,
+                "var2": null,
+                "vcov": 0.441309399208599,
+                "sdcor": 0.664311221648858
+              }
+            ],
+            "qualified_numerical_fit": true
+          },
+          "input_support_literal": {
+            "family": "Entotheonellaceae",
+            "necessary_complete_formula_support_failed": false,
+            "nonzero_fixed_rank": 7,
+            "fixed_rank_without_N": 6,
+            "N_column_independently_estimable_in_fixed_mean_algebra": true,
+            "support_flags": []
+          },
+          "source_status": "ESTIMATE_PRESENT_NOT_REQUALIFIED_FOR_INFERENCE",
+          "N_contrast": "Low_N minus Std_N(180 kg/ha maize)",
+          "reference_context": "Same rank and coefficient; year-specific common-bias feature sets 155/155; no identical offset assumption",
+          "unit_count": 8,
+          "pair_count": 4,
+          "lfc_literal": "0.82727561027364",
+          "se_literal": "0.344711885069392",
+          "dof_literal": "2.51121834030844",
+          "source_path": "15_FINAL_AUDIT/PHASE5_AC_YEAR_MODELS_20261009_V1/actual/C_2018_observed/N_ASSOCIATIONS_RAW.tsv",
+          "source_line": 40,
+          "source_sha256": "5e62fb06305476b7f52c7f460b3071fefc991bc6cf01a0bc7c6346b8af62d513"
+        }
+      ],
+      "theta": 0.591307764986574,
+      "point_status": "AVAILABLE",
+      "precision_status": "FULL_RHO_CONDITIONAL",
+      "point_sign": "POSITIVE",
+      "variance_intercept": 0.05976131442595211,
+      "variance_slope": 0.059760300181455624,
+      "se_min": 0.0010070970640855,
+      "se_max": 0.3457189821334775,
+      "critical_rho": 0.46268013586689377,
+      "rho_zero_exclusion_class": "PARTIAL_RHO",
+      "rho_interval_low": -1.0,
+      "rho_interval_high": 0.46268013586689377,
+      "rho_low_inclusive": true,
+      "rho_high_inclusive": false,
+      "degenerate_minus_one": false,
+      "contour_min_low": 0.589293570858403,
+      "contour_min_high": 0.593321959114745,
+      "contour_max_low": -0.100130199280381,
+      "contour_max_high": 1.282745729253529,
+      "precision_ratio_min_se": 587.1407891785627,
+      "precision_ratio_max_se": 1.7103711266807964,
+      "B_two_SE_excludes_zero": null,
+      "bio_CI": null,
+      "bio_P": null,
+      "bio_FDR": null,
+      "meta_weight": null,
+      "P1": null,
+      "contour_definition": "theta plus/minus two native model standard errors; conditional, not biological95CI"
+    },
+    "provenance": "Literal bound C record, including full affine rho_C precision, year estimates, diagnostics and missing statuses; no new C computation"
+  },
+  "precision_supported": false,
+  "cells": [
+    {
+      "kind": "INTERVAL",
+      "lo": "-1/1",
+      "hi": "1/1",
+      "closed": [
+        true,
+        true
+      ],
+      "state": "REGULAR",
+      "gates": {
+        "G1": "UNKNOWN",
+        "G2": "UNKNOWN",
+        "G3": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G4": "UNKNOWN",
+        "G5": "UNKNOWN"
+      },
+      "joint": "UNKNOWN",
+      "numeric": null,
+      "missing_reason": "SAVED_EFFECT_OR_POSITIVE_PRECISION_UNAVAILABLE"
+    }
+  ],
+  "certificates": [],
+  "domain": {
+    "G1": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G2": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G3": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    "G4": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G5": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "joint": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    }
+  },
+  "classes": {
+    "G1": "NOT_ASSESSABLE",
+    "G2": "NOT_ASSESSABLE",
+    "G3": "NOT_ASSESSABLE",
+    "G4": "NOT_ASSESSABLE",
+    "G5": "NOT_ASSESSABLE",
+    "joint": "NOT_ASSESSABLE"
+  },
+  "degenerate_endpoints": [],
+  "input": {
+    "a": null,
+    "b": "142673575393449/500000000000000",
+    "alpha": null,
+    "beta": null,
+    "z": "120130115930825498277780296209/25000000000000000000000000000000"
+  }
+}

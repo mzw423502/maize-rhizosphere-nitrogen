@@ -1,0 +1,3606 @@
+{
+  "null_cells": [
+    {
+      "id": 0,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": -0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 311379610965220522442227214040701118777,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 40237305249382062461915830035300351052,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0386,
+          "mcse": 0.0027243362494376497,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.4978,
+          "mcse": 0.007070999363597765,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0426,
+          "mcse": 0.00285605462132642,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.4552,
+          "mcse": 0.007042626782671363,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0386,
+          "mcse": 0.0027243362494376497,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.4978,
+          "mcse": 0.007070999363597765,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.98,
+          "coverage_mcse": 0.001979898987322334,
+          "coverage_denominator": 5000,
+          "mean_length": 1.9750337513506875,
+          "mean_length_mcse": 0.021828817576268287,
+          "median_length": 1.6137449398094583,
+          "zero_exclusion": 0.02
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.2438167997540686,
+          "mean_length_mcse": 0.011203550031960155,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.957,
+          "coverage_mcse": 0.00286883251515316,
+          "coverage_denominator": 5000,
+          "mean_length": 1.4239407556539583,
+          "mean_length_mcse": 0.022875412262984035,
+          "median_length": 0.729015653195602,
+          "zero_exclusion": 0.043
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 1.8380119146746017,
+          "mean_length_mcse": 0.01934308357996773,
+          "median_length": 1.1090884761738462,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 4,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": 0.0,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 28402519892494017938178492321571045327,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 315953046842829691776106122937880141681,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0244,
+          "mcse": 0.002181955086613838,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.5014,
+          "mcse": 0.007071040093225324,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.5014,
+          "mcse": 0.007071040093225324,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0244,
+          "mcse": 0.002181955086613838,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.5014,
+          "mcse": 0.007071040093225324,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9506,
+          "coverage_mcse": 0.003064625262572897,
+          "coverage_denominator": 5000,
+          "mean_length": 2.437305958302171,
+          "mean_length_mcse": 0.026774404373972688,
+          "median_length": 2.0256832539926606,
+          "zero_exclusion": 0.0494
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.5074366945880793,
+          "mean_length_mcse": 0.01639451809833109,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9506,
+          "coverage_mcse": 0.003064625262572897,
+          "coverage_denominator": 5000,
+          "mean_length": 2.437305958302171,
+          "mean_length_mcse": 0.026774404373972688,
+          "median_length": 2.0256832539926606,
+          "zero_exclusion": 0.0494
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.5074366945880793,
+          "mean_length_mcse": 0.01639451809833109,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 8,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": 0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 224186007005429489894094129065869218364,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 327566241120896817051940915316115873188,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0304,
+          "mcse": 0.002427996705104848,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.5048,
+          "mcse": 0.007070741969553125,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.5048,
+          "mcse": 0.007070741969553125,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0304,
+          "mcse": 0.002427996705104848,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.5048,
+          "mcse": 0.007070741969553125,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9478,
+          "coverage_mcse": 0.003145636978419475,
+          "coverage_denominator": 5000,
+          "mean_length": 2.7489919698252763,
+          "mean_length_mcse": 0.030392437470114494,
+          "median_length": 2.254688315983471,
+          "zero_exclusion": 0.0522
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.718879178169602,
+          "mean_length_mcse": 0.020489475195330786,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9514,
+          "coverage_mcse": 0.003040987997345599,
+          "coverage_denominator": 5000,
+          "mean_length": 2.824675393351321,
+          "mean_length_mcse": 0.030298193161005522,
+          "median_length": 2.3906718206372597,
+          "zero_exclusion": 0.0486
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.137601107434293,
+          "mean_length_mcse": 0.01769657231377598,
+          "median_length": 3.547483116255763,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 12,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": -0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 100320505287816225056091033170107220607,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 167971595659163559443809744214266619237,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0568,
+          "mcse": 0.0032733395790843335,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0514,
+          "mcse": 0.0031227564746550444,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0054,
+          "mcse": 0.001036420763975713,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0568,
+          "mcse": 0.0032733395790843335,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9852,
+          "coverage_mcse": 0.0017076861538350679,
+          "coverage_denominator": 5000,
+          "mean_length": 3.7341050304554044,
+          "mean_length_mcse": 0.05502220744678569,
+          "median_length": 2.2302958195708182,
+          "zero_exclusion": 0.0148
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.046650044768658,
+          "mean_length_mcse": 0.04377243091611484,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9538,
+          "coverage_mcse": 0.002968688599365047,
+          "coverage_denominator": 5000,
+          "mean_length": 2.9454432429710855,
+          "mean_length_mcse": 0.05914226056106563,
+          "median_length": 0.7556587120495415,
+          "zero_exclusion": 0.0462
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.362626150787335,
+          "mean_length_mcse": 0.05563960962825291,
+          "median_length": 1.131958685927859,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 16,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": 0.0,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 173997285695339696655894117507227637129,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 106842993028416530555026703116344143419,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0372,
+          "mcse": 0.002676421491469533,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0424,
+          "mcse": 0.0028496399772602854,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0424,
+          "mcse": 0.0028496399772602854,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0372,
+          "mcse": 0.002676421491469533,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0424,
+          "mcse": 0.0028496399772602854,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9484,
+          "coverage_mcse": 0.003128496124338337,
+          "coverage_denominator": 5000,
+          "mean_length": 3.88029910977819,
+          "mean_length_mcse": 0.05594852848434636,
+          "median_length": 2.375700076122736,
+          "zero_exclusion": 0.0516
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.146286865859653,
+          "mean_length_mcse": 0.04463910415014503,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9484,
+          "coverage_mcse": 0.003128496124338337,
+          "coverage_denominator": 5000,
+          "mean_length": 3.88029910977819,
+          "mean_length_mcse": 0.05594852848434636,
+          "median_length": 2.375700076122736,
+          "zero_exclusion": 0.0516
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.146286865859653,
+          "mean_length_mcse": 0.04463910415014503,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 20,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": 0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 123298066176359377108468687135693042361,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 221562290460125575231920364522275557082,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.03,
+          "mcse": 0.0024124676163629634,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0344,
+          "mcse": 0.0025774654216885236,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0368,
+          "mcse": 0.002662546149834778,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0024,
+          "mcse": 0.000691988439209789,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.03,
+          "mcse": 0.0024124676163629634,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0344,
+          "mcse": 0.0025774654216885236,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9384,
+          "coverage_mcse": 0.003400159996235471,
+          "coverage_denominator": 5000,
+          "mean_length": 4.067006899287397,
+          "mean_length_mcse": 0.05942860418429426,
+          "median_length": 2.37757746143809,
+          "zero_exclusion": 0.0616
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.313548325819432,
+          "mean_length_mcse": 0.04824698585937002,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9536,
+          "coverage_mcse": 0.0029747954551531774,
+          "coverage_denominator": 5000,
+          "mean_length": 4.44493095690255,
+          "mean_length_mcse": 0.05805866436264188,
+          "median_length": 3.072435341281269,
+          "zero_exclusion": 0.0464
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 6.155316740437037,
+          "mean_length_mcse": 0.04266674459130373,
+          "median_length": 4.615421866743616,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 24,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": -0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 113007010440600652856697470408770728390,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 297648495921169066617499620245417344202,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0042,
+          "mcse": 0.0009145884320283086,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.5176,
+          "mcse": 0.007066685786137657,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.5176,
+          "mcse": 0.007066685786137657,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0042,
+          "mcse": 0.0009145884320283086,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.5176,
+          "mcse": 0.007066685786137657,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.949,
+          "coverage_mcse": 0.0031112376958374634,
+          "coverage_denominator": 5000,
+          "mean_length": 2.5149781458095823,
+          "mean_length_mcse": 0.027525982666905674,
+          "median_length": 2.1083474864937983,
+          "zero_exclusion": 0.051
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.3888384826968245,
+          "mean_length_mcse": 0.012480484906874362,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9502,
+          "coverage_mcse": 0.0030763601869742093,
+          "coverage_denominator": 5000,
+          "mean_length": 2.570584413387833,
+          "mean_length_mcse": 0.027821699166105048,
+          "median_length": 2.164154608330874,
+          "zero_exclusion": 0.0498
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.7833568399779107,
+          "mean_length_mcse": 0.016278945526510394,
+          "median_length": 3.244070626964167,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 28,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": 0.0,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 206918757587593322001422068244929393104,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 311992660286275032583870148636420231273,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.019,
+          "mcse": 0.0019307511491644903,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.5026,
+          "mcse": 0.007070972210382389,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.5026,
+          "mcse": 0.007070972210382389,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.019,
+          "mcse": 0.0019307511491644903,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.5026,
+          "mcse": 0.007070972210382389,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9496,
+          "coverage_mcse": 0.0030938597253269257,
+          "coverage_denominator": 5000,
+          "mean_length": 3.3633852891983698,
+          "mean_length_mcse": 0.03648369001732936,
+          "median_length": 2.7967491153785766,
+          "zero_exclusion": 0.0504
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.845384165089015,
+          "mean_length_mcse": 0.0221147216833685,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9496,
+          "coverage_mcse": 0.0030938597253269257,
+          "coverage_denominator": 5000,
+          "mean_length": 3.3633852891983698,
+          "mean_length_mcse": 0.03648369001732936,
+          "median_length": 2.7967491153785766,
+          "zero_exclusion": 0.0504
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.845384165089015,
+          "mean_length_mcse": 0.0221147216833685,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 32,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": 0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 189641187713041883045771690286959997132,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 157366322085914470805818426294188488114,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0438,
+          "mcse": 0.0028941858958954243,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.491,
+          "mcse": 0.007069922206078367,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0506,
+          "mcse": 0.0030996657884359083,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.4404,
+          "mcse": 0.0070206529610856,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0438,
+          "mcse": 0.0028941858958954243,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.491,
+          "mcse": 0.007069922206078367,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9562,
+          "coverage_mcse": 0.0028941858958954226,
+          "coverage_denominator": 5000,
+          "mean_length": 3.9572484936473207,
+          "mean_length_mcse": 0.04289057964609849,
+          "median_length": 3.3112764667187937,
+          "zero_exclusion": 0.0438
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.227563853925209,
+          "mean_length_mcse": 0.029641262353230276,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.952,
+          "coverage_mcse": 0.0030231109804305907,
+          "coverage_denominator": 5000,
+          "mean_length": 3.7427276630759274,
+          "mean_length_mcse": 0.042723170441286325,
+          "median_length": 3.0110456298895665,
+          "zero_exclusion": 0.048
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.336233546951482,
+          "mean_length_mcse": 0.02789593395683122,
+          "median_length": 4.389898656959953,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 36,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": -0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 320738843033370467162478085306982163163,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 213074373146185423076559603382514678094,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0416,
+          "mcse": 0.002823807358868519,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0578,
+          "mcse": 0.003300277564084573,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0432,
+          "mcse": 0.002875195993319412,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0146,
+          "mcse": 0.00169628063715884,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0416,
+          "mcse": 0.002823807358868519,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0578,
+          "mcse": 0.003300277564084573,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9616,
+          "coverage_mcse": 0.0027175518394319544,
+          "coverage_denominator": 5000,
+          "mean_length": 4.823422960564319,
+          "mean_length_mcse": 0.05715884559322009,
+          "median_length": 3.7009429114438572,
+          "zero_exclusion": 0.0384
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.211592843160028,
+          "mean_length_mcse": 0.035780953186048965,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9506,
+          "coverage_mcse": 0.003064625262572897,
+          "coverage_denominator": 5000,
+          "mean_length": 4.206544313345209,
+          "mean_length_mcse": 0.05858563904991003,
+          "median_length": 2.648966469911584,
+          "zero_exclusion": 0.0494
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.697463177902318,
+          "mean_length_mcse": 0.04519734453099234,
+          "median_length": 3.999914443649734,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 40,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": 0.0,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 132418572851262418256046730689126043036,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 118779118834275815108692453696038218402,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0348,
+          "mcse": 0.0025918703671287267,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0348,
+          "mcse": 0.0025918703671287267,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9534,
+          "coverage_mcse": 0.0029808871162793123,
+          "coverage_denominator": 5000,
+          "mean_length": 5.14573287652569,
+          "mean_length_mcse": 0.059642566945491984,
+          "median_length": 4.008002825232026,
+          "zero_exclusion": 0.0466
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.38364362503388,
+          "mean_length_mcse": 0.03860328395636856,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9534,
+          "coverage_mcse": 0.0029808871162793123,
+          "coverage_denominator": 5000,
+          "mean_length": 5.14573287652569,
+          "mean_length_mcse": 0.059642566945491984,
+          "median_length": 4.008002825232026,
+          "zero_exclusion": 0.0466
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.38364362503388,
+          "mean_length_mcse": 0.03860328395636856,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 44,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": 0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76335525825194850845241052144057363411,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 281257130523430501512946845670201313409,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0306,
+          "mcse": 0.002435719195638118,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0432,
+          "mcse": 0.002875195993319412,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.498,
+          "mcse": 0.0070710112430967045,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.4548,
+          "mcse": 0.007042115591212629,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0306,
+          "mcse": 0.002435719195638118,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0432,
+          "mcse": 0.002875195993319412,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.945,
+          "coverage_mcse": 0.003224127789030703,
+          "coverage_denominator": 5000,
+          "mean_length": 5.654235876678131,
+          "mean_length_mcse": 0.06602181037565587,
+          "median_length": 4.323644544037657,
+          "zero_exclusion": 0.055
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.749525530420153,
+          "mean_length_mcse": 0.045366059846109676,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9494,
+          "coverage_mcse": 0.0030996657884359074,
+          "coverage_denominator": 5000,
+          "mean_length": 5.938699292399921,
+          "mean_length_mcse": 0.06554651396145122,
+          "median_length": 4.830279794651428,
+          "zero_exclusion": 0.0506
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 8.581013652456496,
+          "mean_length_mcse": 0.040017176369372534,
+          "median_length": 7.184658174537129,
+          "zero_exclusion": 0.0
+        }
+      }
+    }
+  ],
+  "homogeneous_cells": [
+    {
+      "id": 0,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": -0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 311379610965220522442227214040701118777,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 40237305249382062461915830035300351052,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0386,
+          "mcse": 0.0027243362494376497,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.4978,
+          "mcse": 0.007070999363597765,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0426,
+          "mcse": 0.00285605462132642,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.4552,
+          "mcse": 0.007042626782671363,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0386,
+          "mcse": 0.0027243362494376497,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.4978,
+          "mcse": 0.007070999363597765,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.98,
+          "coverage_mcse": 0.001979898987322334,
+          "coverage_denominator": 5000,
+          "mean_length": 1.9750337513506875,
+          "mean_length_mcse": 0.021828817576268287,
+          "median_length": 1.6137449398094583,
+          "zero_exclusion": 0.02
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.2438167997540686,
+          "mean_length_mcse": 0.011203550031960155,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.957,
+          "coverage_mcse": 0.00286883251515316,
+          "coverage_denominator": 5000,
+          "mean_length": 1.4239407556539583,
+          "mean_length_mcse": 0.022875412262984035,
+          "median_length": 0.729015653195602,
+          "zero_exclusion": 0.043
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 1.8380119146746017,
+          "mean_length_mcse": 0.01934308357996773,
+          "median_length": 1.1090884761738462,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 1,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": -0.9,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 40237305249382062461915830035300351052,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 206361710252095588735902575223333525690,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0726,
+          "mcse": 0.003669584172627738,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.9416,
+          "mcse": 0.0033163063790910513,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0822,
+          "mcse": 0.003884408835331317,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.8594,
+          "mcse": 0.004915925955504211,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0726,
+          "mcse": 0.003669584172627738,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.9416,
+          "mcse": 0.0033163063790910513,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.975,
+          "coverage_mcse": 0.0022079402165819627,
+          "coverage_denominator": 5000,
+          "mean_length": 1.9753322355297975,
+          "mean_length_mcse": 0.021931752968029575,
+          "median_length": 1.63380174923393,
+          "zero_exclusion": 0.1972
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.244521674205601,
+          "mean_length_mcse": 0.011259996011808432,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9484,
+          "coverage_mcse": 0.003128496124338337,
+          "coverage_denominator": 5000,
+          "mean_length": 1.426450881502445,
+          "mean_length_mcse": 0.02294424013560242,
+          "median_length": 0.7380763961066394,
+          "zero_exclusion": 0.415
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 1.8412241375556113,
+          "mean_length_mcse": 0.019393748868880685,
+          "median_length": 1.1090884761738462,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 4,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": 0.0,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 28402519892494017938178492321571045327,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 315953046842829691776106122937880141681,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0244,
+          "mcse": 0.002181955086613838,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.5014,
+          "mcse": 0.007071040093225324,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.5014,
+          "mcse": 0.007071040093225324,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0244,
+          "mcse": 0.002181955086613838,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.5014,
+          "mcse": 0.007071040093225324,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9506,
+          "coverage_mcse": 0.003064625262572897,
+          "coverage_denominator": 5000,
+          "mean_length": 2.437305958302171,
+          "mean_length_mcse": 0.026774404373972688,
+          "median_length": 2.0256832539926606,
+          "zero_exclusion": 0.0494
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.5074366945880793,
+          "mean_length_mcse": 0.01639451809833109,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9506,
+          "coverage_mcse": 0.003064625262572897,
+          "coverage_denominator": 5000,
+          "mean_length": 2.437305958302171,
+          "mean_length_mcse": 0.026774404373972688,
+          "median_length": 2.0256832539926606,
+          "zero_exclusion": 0.0494
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.5074366945880793,
+          "mean_length_mcse": 0.01639451809833109,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 5,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": 0.0,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 315953046842829691776106122937880141681,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 74293679695011345533351337642347541881,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.1486,
+          "mcse": 0.0050302691776882074,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.919,
+          "mcse": 0.0038584711998406822,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.919,
+          "mcse": 0.0038584711998406822,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.1486,
+          "mcse": 0.0050302691776882074,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.919,
+          "mcse": 0.0038584711998406822,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9592,
+          "coverage_mcse": 0.0027976904760891597,
+          "coverage_denominator": 5000,
+          "mean_length": 2.4277358124440958,
+          "mean_length_mcse": 0.026102484933518834,
+          "median_length": 2.0245443773017753,
+          "zero_exclusion": 0.1494
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.4859931940057924,
+          "mean_length_mcse": 0.01577203813925474,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9592,
+          "coverage_mcse": 0.0027976904760891597,
+          "coverage_denominator": 5000,
+          "mean_length": 2.4277358124440958,
+          "mean_length_mcse": 0.026102484933518834,
+          "median_length": 2.0245443773017753,
+          "zero_exclusion": 0.1494
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.4859931940057924,
+          "mean_length_mcse": 0.01577203813925474,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 8,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": 0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 224186007005429489894094129065869218364,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 327566241120896817051940915316115873188,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0304,
+          "mcse": 0.002427996705104848,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.5048,
+          "mcse": 0.007070741969553125,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.5048,
+          "mcse": 0.007070741969553125,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0304,
+          "mcse": 0.002427996705104848,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.5048,
+          "mcse": 0.007070741969553125,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9478,
+          "coverage_mcse": 0.003145636978419475,
+          "coverage_denominator": 5000,
+          "mean_length": 2.7489919698252763,
+          "mean_length_mcse": 0.030392437470114494,
+          "median_length": 2.254688315983471,
+          "zero_exclusion": 0.0522
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.718879178169602,
+          "mean_length_mcse": 0.020489475195330786,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9514,
+          "coverage_mcse": 0.003040987997345599,
+          "coverage_denominator": 5000,
+          "mean_length": 2.824675393351321,
+          "mean_length_mcse": 0.030298193161005522,
+          "median_length": 2.3906718206372597,
+          "zero_exclusion": 0.0486
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.137601107434293,
+          "mean_length_mcse": 0.01769657231377598,
+          "median_length": 3.547483116255763,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 9,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.2,
+      "true_rho": 0.9,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 327566241120896817051940915316115873188,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 52135355333895692812932966257753867707,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.187,
+          "mcse": 0.005514181716265796,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.8896,
+          "mcse": 0.004431971119039473,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.8896,
+          "mcse": 0.004431971119039473,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.187,
+          "mcse": 0.005514181716265796,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.8896,
+          "mcse": 0.004431971119039473,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9472,
+          "coverage_mcse": 0.003162662169755093,
+          "coverage_denominator": 5000,
+          "mean_length": 2.7639760342963817,
+          "mean_length_mcse": 0.03007710756225813,
+          "median_length": 2.2513430857949857,
+          "zero_exclusion": 0.145
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.7229088204054803,
+          "mean_length_mcse": 0.020068667323123644,
+          "median_length": 2.9343722899235836,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.951,
+          "coverage_mcse": 0.0030528347482299146,
+          "coverage_denominator": 5000,
+          "mean_length": 2.8393155222083717,
+          "mean_length_mcse": 0.02998348962818691,
+          "median_length": 2.387124834790717,
+          "zero_exclusion": 0.1362
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.1370025587676444,
+          "mean_length_mcse": 0.01724363917987026,
+          "median_length": 3.547483116255763,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 12,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": -0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 100320505287816225056091033170107220607,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 167971595659163559443809744214266619237,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0568,
+          "mcse": 0.0032733395790843335,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0514,
+          "mcse": 0.0031227564746550444,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0054,
+          "mcse": 0.001036420763975713,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0568,
+          "mcse": 0.0032733395790843335,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9852,
+          "coverage_mcse": 0.0017076861538350679,
+          "coverage_denominator": 5000,
+          "mean_length": 3.7341050304554044,
+          "mean_length_mcse": 0.05502220744678569,
+          "median_length": 2.2302958195708182,
+          "zero_exclusion": 0.0148
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.046650044768658,
+          "mean_length_mcse": 0.04377243091611484,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9538,
+          "coverage_mcse": 0.002968688599365047,
+          "coverage_denominator": 5000,
+          "mean_length": 2.9454432429710855,
+          "mean_length_mcse": 0.05914226056106563,
+          "median_length": 0.7556587120495415,
+          "zero_exclusion": 0.0462
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.362626150787335,
+          "mean_length_mcse": 0.05563960962825291,
+          "median_length": 1.131958685927859,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 13,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": -0.9,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 167971595659163559443809744214266619237,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 287751666094325958267231192706607697823,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.057,
+          "mcse": 0.0032787497617232093,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.064,
+          "mcse": 0.0034613292244454297,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0578,
+          "mcse": 0.003300277564084573,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0062,
+          "mcse": 0.0011100954913880157,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.057,
+          "mcse": 0.0032787497617232093,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.064,
+          "mcse": 0.0034613292244454297,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9796,
+          "coverage_mcse": 0.0019991918367180265,
+          "coverage_denominator": 5000,
+          "mean_length": 3.742681472654598,
+          "mean_length_mcse": 0.055418256316440595,
+          "median_length": 2.2218873231379623,
+          "zero_exclusion": 0.1494
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.071513002974368,
+          "mean_length_mcse": 0.043901133430632976,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9474,
+          "coverage_mcse": 0.0031569998416217885,
+          "coverage_denominator": 5000,
+          "mean_length": 2.9738569522108755,
+          "mean_length_mcse": 0.05943073039384941,
+          "median_length": 0.7528097834325533,
+          "zero_exclusion": 0.4096
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.3967233794808576,
+          "mean_length_mcse": 0.05584054278261116,
+          "median_length": 1.131958685927859,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 16,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": 0.0,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 173997285695339696655894117507227637129,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 106842993028416530555026703116344143419,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0372,
+          "mcse": 0.002676421491469533,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0424,
+          "mcse": 0.0028496399772602854,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0424,
+          "mcse": 0.0028496399772602854,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0372,
+          "mcse": 0.002676421491469533,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0424,
+          "mcse": 0.0028496399772602854,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9484,
+          "coverage_mcse": 0.003128496124338337,
+          "coverage_denominator": 5000,
+          "mean_length": 3.88029910977819,
+          "mean_length_mcse": 0.05594852848434636,
+          "median_length": 2.375700076122736,
+          "zero_exclusion": 0.0516
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.146286865859653,
+          "mean_length_mcse": 0.04463910415014503,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9484,
+          "coverage_mcse": 0.003128496124338337,
+          "coverage_denominator": 5000,
+          "mean_length": 3.88029910977819,
+          "mean_length_mcse": 0.05594852848434636,
+          "median_length": 2.375700076122736,
+          "zero_exclusion": 0.0516
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.146286865859653,
+          "mean_length_mcse": 0.04463910415014503,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 17,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": 0.0,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 106842993028416530555026703116344143419,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 322363919435568813030659331863967519377,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0582,
+          "mcse": 0.003310974478911005,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0662,
+          "mcse": 0.003516178607522661,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0662,
+          "mcse": 0.003516178607522661,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0582,
+          "mcse": 0.003310974478911005,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0662,
+          "mcse": 0.003516178607522661,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.951,
+          "coverage_mcse": 0.0030528347482299146,
+          "coverage_denominator": 5000,
+          "mean_length": 3.9188126015148765,
+          "mean_length_mcse": 0.05687895010334926,
+          "median_length": 2.3397681008474245,
+          "zero_exclusion": 0.1314
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.183872049618886,
+          "mean_length_mcse": 0.045658982414281506,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.951,
+          "coverage_mcse": 0.0030528347482299146,
+          "coverage_denominator": 5000,
+          "mean_length": 3.9188126015148765,
+          "mean_length_mcse": 0.05687895010334926,
+          "median_length": 2.3397681008474245,
+          "zero_exclusion": 0.1314
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.183872049618886,
+          "mean_length_mcse": 0.045658982414281506,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 20,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": 0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 123298066176359377108468687135693042361,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 221562290460125575231920364522275557082,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.03,
+          "mcse": 0.0024124676163629634,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0344,
+          "mcse": 0.0025774654216885236,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0368,
+          "mcse": 0.002662546149834778,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0024,
+          "mcse": 0.000691988439209789,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.03,
+          "mcse": 0.0024124676163629634,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0344,
+          "mcse": 0.0025774654216885236,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9384,
+          "coverage_mcse": 0.003400159996235471,
+          "coverage_denominator": 5000,
+          "mean_length": 4.067006899287397,
+          "mean_length_mcse": 0.05942860418429426,
+          "median_length": 2.37757746143809,
+          "zero_exclusion": 0.0616
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.313548325819432,
+          "mean_length_mcse": 0.04824698585937002,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9536,
+          "coverage_mcse": 0.0029747954551531774,
+          "coverage_denominator": 5000,
+          "mean_length": 4.44493095690255,
+          "mean_length_mcse": 0.05805866436264188,
+          "median_length": 3.072435341281269,
+          "zero_exclusion": 0.0464
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 6.155316740437037,
+          "mean_length_mcse": 0.04266674459130373,
+          "median_length": 4.615421866743616,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 21,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.2,
+      "sb": 0.5,
+      "true_rho": 0.9,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.020000000000000004,
+      "beta": 0.020000000000000004,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": true,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 221562290460125575231920364522275557082,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 255446592886795032277727834634481990868,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0554,
+          "mcse": 0.0032351457463304493,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.065,
+          "mcse": 0.0034864021569520637,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.072,
+          "mcse": 0.003655571090814676,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.007,
+          "mcse": 0.0011790674280973078,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0554,
+          "mcse": 0.0032351457463304493,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.065,
+          "mcse": 0.0034864021569520637,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.924,
+          "coverage_mcse": 0.0037476392569189463,
+          "coverage_denominator": 5000,
+          "mean_length": 4.116801091841205,
+          "mean_length_mcse": 0.05958957549349441,
+          "median_length": 2.43973364881709,
+          "zero_exclusion": 0.136
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.349172917945488,
+          "mean_length_mcse": 0.048337815873769445,
+          "median_length": 3.458190907884773,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.94,
+          "coverage_mcse": 0.0033585711247493344,
+          "coverage_denominator": 5000,
+          "mean_length": 4.493356652653106,
+          "mean_length_mcse": 0.05820852744072962,
+          "median_length": 3.1527569585071626,
+          "zero_exclusion": 0.1054
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 6.184513967694468,
+          "mean_length_mcse": 0.042709980584347294,
+          "median_length": 4.615421866743616,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 24,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": -0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 113007010440600652856697470408770728390,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 297648495921169066617499620245417344202,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0042,
+          "mcse": 0.0009145884320283086,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.5176,
+          "mcse": 0.007066685786137657,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.5176,
+          "mcse": 0.007066685786137657,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0042,
+          "mcse": 0.0009145884320283086,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.5176,
+          "mcse": 0.007066685786137657,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.949,
+          "coverage_mcse": 0.0031112376958374634,
+          "coverage_denominator": 5000,
+          "mean_length": 2.5149781458095823,
+          "mean_length_mcse": 0.027525982666905674,
+          "median_length": 2.1083474864937983,
+          "zero_exclusion": 0.051
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.3888384826968245,
+          "mean_length_mcse": 0.012480484906874362,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9502,
+          "coverage_mcse": 0.0030763601869742093,
+          "coverage_denominator": 5000,
+          "mean_length": 2.570584413387833,
+          "mean_length_mcse": 0.027821699166105048,
+          "median_length": 2.164154608330874,
+          "zero_exclusion": 0.0498
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.7833568399779107,
+          "mean_length_mcse": 0.016278945526510394,
+          "median_length": 3.244070626964167,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 25,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": -0.9,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 297648495921169066617499620245417344202,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 59348828271955304822770876602972135099,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0436,
+          "mcse": 0.0028878725733660756,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.8992,
+          "mcse": 0.004257683877415043,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.8992,
+          "mcse": 0.004257683877415043,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0436,
+          "mcse": 0.0028878725733660756,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.8992,
+          "mcse": 0.004257683877415043,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.948,
+          "coverage_mcse": 0.00313993630508646,
+          "coverage_denominator": 5000,
+          "mean_length": 2.5514421303859343,
+          "mean_length_mcse": 0.027768911665057364,
+          "median_length": 2.152401908916052,
+          "zero_exclusion": 0.151
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.402478914944949,
+          "mean_length_mcse": 0.012797859460593216,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9486,
+          "coverage_mcse": 0.0031227564746550444,
+          "coverage_denominator": 5000,
+          "mean_length": 2.607246391715238,
+          "mean_length_mcse": 0.02805099491029769,
+          "median_length": 2.2093751338435013,
+          "zero_exclusion": 0.1472
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 3.7975415531023193,
+          "mean_length_mcse": 0.016617089944660296,
+          "median_length": 3.244070626964167,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 28,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": 0.0,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 206918757587593322001422068244929393104,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 311992660286275032583870148636420231273,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.019,
+          "mcse": 0.0019307511491644903,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.5026,
+          "mcse": 0.007070972210382389,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.5026,
+          "mcse": 0.007070972210382389,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.019,
+          "mcse": 0.0019307511491644903,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.5026,
+          "mcse": 0.007070972210382389,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9496,
+          "coverage_mcse": 0.0030938597253269257,
+          "coverage_denominator": 5000,
+          "mean_length": 3.3633852891983698,
+          "mean_length_mcse": 0.03648369001732936,
+          "median_length": 2.7967491153785766,
+          "zero_exclusion": 0.0504
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.845384165089015,
+          "mean_length_mcse": 0.0221147216833685,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9496,
+          "coverage_mcse": 0.0030938597253269257,
+          "coverage_denominator": 5000,
+          "mean_length": 3.3633852891983698,
+          "mean_length_mcse": 0.03648369001732936,
+          "median_length": 2.7967491153785766,
+          "zero_exclusion": 0.0504
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.845384165089015,
+          "mean_length_mcse": 0.0221147216833685,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 29,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": 0.0,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 311992660286275032583870148636420231273,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 88400307614600963911715191442723514870,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.085,
+          "mcse": 0.003943982758583004,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.8184,
+          "mcse": 0.005451998532648372,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.8184,
+          "mcse": 0.005451998532648372,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.085,
+          "mcse": 0.003943982758583004,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.8184,
+          "mcse": 0.005451998532648372,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9522,
+          "coverage_mcse": 0.0030171231330524103,
+          "coverage_denominator": 5000,
+          "mean_length": 3.3294174053387215,
+          "mean_length_mcse": 0.03636501913239047,
+          "median_length": 2.7326278419641366,
+          "zero_exclusion": 0.115
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.831668380712981,
+          "mean_length_mcse": 0.02191689320452134,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9522,
+          "coverage_mcse": 0.0030171231330524103,
+          "coverage_denominator": 5000,
+          "mean_length": 3.3294174053387215,
+          "mean_length_mcse": 0.03636501913239047,
+          "median_length": 2.7326278419641366,
+          "zero_exclusion": 0.115
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 4.831668380712981,
+          "mean_length_mcse": 0.02191689320452134,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 32,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": 0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 189641187713041883045771690286959997132,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 157366322085914470805818426294188488114,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0438,
+          "mcse": 0.0028941858958954243,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.491,
+          "mcse": 0.007069922206078367,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0506,
+          "mcse": 0.0030996657884359083,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.4404,
+          "mcse": 0.0070206529610856,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0438,
+          "mcse": 0.0028941858958954243,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.491,
+          "mcse": 0.007069922206078367,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9562,
+          "coverage_mcse": 0.0028941858958954226,
+          "coverage_denominator": 5000,
+          "mean_length": 3.9572484936473207,
+          "mean_length_mcse": 0.04289057964609849,
+          "median_length": 3.3112764667187937,
+          "zero_exclusion": 0.0438
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.227563853925209,
+          "mean_length_mcse": 0.029641262353230276,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.952,
+          "coverage_mcse": 0.0030231109804305907,
+          "coverage_denominator": 5000,
+          "mean_length": 3.7427276630759274,
+          "mean_length_mcse": 0.042723170441286325,
+          "median_length": 3.0110456298895665,
+          "zero_exclusion": 0.048
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.336233546951482,
+          "mean_length_mcse": 0.02789593395683122,
+          "median_length": 4.389898656959953,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 33,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.2,
+      "true_rho": 0.9,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.04000000000000001,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 157366322085914470805818426294188488114,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 13541103169289183897164148682844358386,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.1274,
+          "mcse": 0.004715278146620833,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.7836,
+          "mcse": 0.005823590644954366,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.136,
+          "mcse": 0.004847762370413798,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.6476,
+          "mcse": 0.006755949082105341,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.1274,
+          "mcse": 0.004715278146620833,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.7836,
+          "mcse": 0.005823590644954366,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9526,
+          "coverage_mcse": 0.0030051036587778464,
+          "coverage_denominator": 5000,
+          "mean_length": 3.901677680650633,
+          "mean_length_mcse": 0.04320775420745604,
+          "median_length": 3.2140155503805508,
+          "zero_exclusion": 0.1028
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.222875112331965,
+          "mean_length_mcse": 0.029576320157700172,
+          "median_length": 4.080079095150566,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9472,
+          "coverage_mcse": 0.003162662169755093,
+          "coverage_denominator": 5000,
+          "mean_length": 3.692277982090471,
+          "mean_length_mcse": 0.043026688917036496,
+          "median_length": 2.9226032844548713,
+          "zero_exclusion": 0.1124
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.337931880329071,
+          "mean_length_mcse": 0.027810463674984184,
+          "median_length": 4.389898656959953,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 36,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": -0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 320738843033370467162478085306982163163,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 213074373146185423076559603382514678094,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0416,
+          "mcse": 0.002823807358868519,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0578,
+          "mcse": 0.003300277564084573,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0432,
+          "mcse": 0.002875195993319412,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0146,
+          "mcse": 0.00169628063715884,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0416,
+          "mcse": 0.002823807358868519,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0578,
+          "mcse": 0.003300277564084573,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9616,
+          "coverage_mcse": 0.0027175518394319544,
+          "coverage_denominator": 5000,
+          "mean_length": 4.823422960564319,
+          "mean_length_mcse": 0.05715884559322009,
+          "median_length": 3.7009429114438572,
+          "zero_exclusion": 0.0384
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.211592843160028,
+          "mean_length_mcse": 0.035780953186048965,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9506,
+          "coverage_mcse": 0.003064625262572897,
+          "coverage_denominator": 5000,
+          "mean_length": 4.206544313345209,
+          "mean_length_mcse": 0.05858563904991003,
+          "median_length": 2.648966469911584,
+          "zero_exclusion": 0.0494
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.697463177902318,
+          "mean_length_mcse": 0.04519734453099234,
+          "median_length": 3.999914443649734,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 37,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": -0.9,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 213074373146185423076559603382514678094,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 287155489534637463123705049602403486565,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0708,
+          "mcse": 0.0036273229798296155,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0966,
+          "mcse": 0.004177761122898244,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0736,
+          "mcse": 0.003692777816224529,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.023,
+          "mcse": 0.0021199528296639053,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0708,
+          "mcse": 0.0036273229798296155,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0966,
+          "mcse": 0.004177761122898244,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9646,
+          "coverage_mcse": 0.00261330595223751,
+          "coverage_denominator": 5000,
+          "mean_length": 4.860222037583019,
+          "mean_length_mcse": 0.05668197583186118,
+          "median_length": 3.7684907883738754,
+          "zero_exclusion": 0.0854
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.195030520095449,
+          "mean_length_mcse": 0.0356720422087054,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9514,
+          "coverage_mcse": 0.003040987997345599,
+          "coverage_denominator": 5000,
+          "mean_length": 4.236033339698789,
+          "mean_length_mcse": 0.05811614333224555,
+          "median_length": 2.697314165453725,
+          "zero_exclusion": 0.1184
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 5.691643862544362,
+          "mean_length_mcse": 0.04493011461245839,
+          "median_length": 3.999914443649734,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 40,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": 0.0,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 132418572851262418256046730689126043036,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 118779118834275815108692453696038218402,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0348,
+          "mcse": 0.0025918703671287267,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0348,
+          "mcse": 0.0025918703671287267,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0502,
+          "mcse": 0.003088040155179333,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9534,
+          "coverage_mcse": 0.0029808871162793123,
+          "coverage_denominator": 5000,
+          "mean_length": 5.14573287652569,
+          "mean_length_mcse": 0.059642566945491984,
+          "median_length": 4.008002825232026,
+          "zero_exclusion": 0.0466
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.38364362503388,
+          "mean_length_mcse": 0.03860328395636856,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9534,
+          "coverage_mcse": 0.0029808871162793123,
+          "coverage_denominator": 5000,
+          "mean_length": 5.14573287652569,
+          "mean_length_mcse": 0.059642566945491984,
+          "median_length": 4.008002825232026,
+          "zero_exclusion": 0.0466
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.38364362503388,
+          "mean_length_mcse": 0.03860328395636856,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 41,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": 0.0,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 118779118834275815108692453696038218402,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 87470797277259000758017323593988460731,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.066,
+          "mcse": 0.0035112390975266835,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0934,
+          "mcse": 0.004115250660652398,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.0934,
+          "mcse": 0.004115250660652398,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.0,
+          "mcse": 0.0,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.066,
+          "mcse": 0.0035112390975266835,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0934,
+          "mcse": 0.004115250660652398,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.9496,
+          "coverage_mcse": 0.0030938597253269257,
+          "coverage_denominator": 5000,
+          "mean_length": 5.235719909262918,
+          "mean_length_mcse": 0.06168579827411787,
+          "median_length": 4.006923556332537,
+          "zero_exclusion": 0.08
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.4580979016637325,
+          "mean_length_mcse": 0.04109212848677149,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9496,
+          "coverage_mcse": 0.0030938597253269257,
+          "coverage_denominator": 5000,
+          "mean_length": 5.235719909262918,
+          "mean_length_mcse": 0.06168579827411787,
+          "median_length": 4.006923556332537,
+          "zero_exclusion": 0.08
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.4580979016637325,
+          "mean_length_mcse": 0.04109212848677149,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 44,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": 0.9,
+      "thetaA": 0.0,
+      "thetaB": 0.0,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76335525825194850845241052144057363411,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 281257130523430501512946845670201313409,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0306,
+          "mcse": 0.002435719195638118,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0432,
+          "mcse": 0.002875195993319412,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.498,
+          "mcse": 0.0070710112430967045,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.4548,
+          "mcse": 0.007042115591212629,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0306,
+          "mcse": 0.002435719195638118,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0432,
+          "mcse": 0.002875195993319412,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.945,
+          "coverage_mcse": 0.003224127789030703,
+          "coverage_denominator": 5000,
+          "mean_length": 5.654235876678131,
+          "mean_length_mcse": 0.06602181037565587,
+          "median_length": 4.323644544037657,
+          "zero_exclusion": 0.055
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.749525530420153,
+          "mean_length_mcse": 0.045366059846109676,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9494,
+          "coverage_mcse": 0.0030996657884359074,
+          "coverage_denominator": 5000,
+          "mean_length": 5.938699292399921,
+          "mean_length_mcse": 0.06554651396145122,
+          "median_length": 4.830279794651428,
+          "zero_exclusion": 0.0506
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 8.581013652456496,
+          "mean_length_mcse": 0.040017176369372534,
+          "median_length": 7.184658174537129,
+          "zero_exclusion": 0.0
+        }
+      }
+    },
+    {
+      "id": 45,
+      "R": 5000,
+      "s1": 0.2,
+      "s2": 0.5,
+      "sb": 0.5,
+      "true_rho": 0.9,
+      "thetaA": 0.3,
+      "thetaB": 0.3,
+      "alpha": 0.07250000000000001,
+      "beta": 0.05,
+      "z": 0.25,
+      "full_domain_has_nonregular_endpoint": false,
+      "rng_initial": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 281257130523430501512946845670201313409,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "rng_final": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 338680617711642590999399146127002595576,
+          "inc": 49731281963525259754769244700575879597
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "metrics": {
+        "full_regular_selection": {
+          "estimate": 0.0566,
+          "mcse": 0.003267917991627085,
+          "denominator": 5000
+        },
+        "point0_selection": {
+          "estimate": 0.0822,
+          "mcse": 0.003884408835331317,
+          "denominator": 5000
+        },
+        "true_rho_selection": {
+          "estimate": 0.6428,
+          "mcse": 0.006776550154761639,
+          "denominator": 5000
+        },
+        "point0_vs_oracle_disagreement": {
+          "estimate": 0.5606,
+          "mcse": 0.007018940660812,
+          "denominator": 5000
+        },
+        "full_with_mHK0_zero_including": {
+          "estimate": 0.0566,
+          "mcse": 0.003267917991627085,
+          "denominator": 5000
+        },
+        "point0_with_mHK0_zero_including": {
+          "estimate": 0.0822,
+          "mcse": 0.003884408835331317,
+          "denominator": 5000
+        },
+        "rho0_HK": {
+          "coverage": 0.941,
+          "coverage_mcse": 0.003332236486205625,
+          "coverage_denominator": 5000,
+          "mean_length": 5.546608798775252,
+          "mean_length_mcse": 0.06549458170691852,
+          "median_length": 4.237647539066341,
+          "zero_exclusion": 0.0866
+        },
+        "rho0_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 7.673892644714507,
+          "mean_length_mcse": 0.045260243903640175,
+          "median_length": 6.0244859056491125,
+          "zero_exclusion": 0.0
+        },
+        "true_rho_HK": {
+          "coverage": 0.9468,
+          "coverage_mcse": 0.003173948959892078,
+          "coverage_denominator": 5000,
+          "mean_length": 5.835823683929261,
+          "mean_length_mcse": 0.06503823499612851,
+          "median_length": 4.7342058479422064,
+          "zero_exclusion": 0.0804
+        },
+        "true_rho_mHK": {
+          "coverage": 1.0,
+          "coverage_mcse": 0.0,
+          "coverage_denominator": 5000,
+          "mean_length": 8.521322737360045,
+          "mean_length_mcse": 0.04002414471972778,
+          "median_length": 7.184658174537129,
+          "zero_exclusion": 0.0
+        }
+      }
+    }
+  ]
+}

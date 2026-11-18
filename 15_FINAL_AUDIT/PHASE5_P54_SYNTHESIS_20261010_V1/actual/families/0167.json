@@ -1,0 +1,340 @@
+{
+  "family": "Rickettsiaceae",
+  "input_source": "BOUND_INPUT_EXACT_FAMILY_KEY",
+  "primary_experiments": [
+    "A",
+    "B"
+  ],
+  "source_diagnostics": {
+    "A": "ORIGINAL_DIAGNOSTICS_RETAINED",
+    "B": "ABSENT",
+    "C": "ORIGINAL_DIAGNOSTICS_RETAINED"
+  },
+  "formal_P1_status": "NOT_RELEASED",
+  "P1_count": null,
+  "signature_weight": null,
+  "Bonn_release": false,
+  "P": null,
+  "FDR": null,
+  "estimand": "MODEL_CONDITIONAL_AB_NATURAL_LOG_ASSOCIATION",
+  "C_auxiliary": {
+    "role": "AUXILIARY_NOT_POOLED_NOT_AN_AB_GATE",
+    "presence": "PRESENT",
+    "source_record": {
+      "experiment": "C",
+      "family": "Rickettsiaceae",
+      "role": "AUXILIARY",
+      "year_count": 2,
+      "diagnostic_stratum": "ORIGINAL_DIAGNOSTICS_RETAINED",
+      "years": [
+        {
+          "cohort": "C_2017",
+          "family": "Rickettsiaceae",
+          "diagnostic_state": "NO_CAPTURED_FINAL_FLAG",
+          "diagnostics_literal": {
+            "family": "Rickettsiaceae",
+            "fit_returned": true,
+            "nobs": 27,
+            "coefficient_names": [
+              "(Intercept)",
+              "NLN",
+              "spatial_pair[\"continuous\",\"2\"]",
+              "spatial_pair[\"rotated\",\"1\"]",
+              "spatial_pair[\"rotated\",\"2\"]",
+              "period08",
+              "period09"
+            ],
+            "N_raw_estimate": 0.0603964590927239,
+            "N_raw_standard_error": 0.283872324806465,
+            "N_fit_df": 6.09527596589389,
+            "fixed_basis_exact": true,
+            "dropped_columns": null,
+            "singular": false,
+            "optimizer_code": 0,
+            "convergence_messages": null,
+            "variance_components": [
+              {
+                "grp": "subplot_period_uid",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0.0595448812193334,
+                "sdcor": 0.244018198541284
+              },
+              {
+                "grp": "allocation_unit",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 1.59208128547794e-07,
+                "sdcor": 0.000399008932917289
+              },
+              {
+                "grp": "Residual",
+                "var1": null,
+                "var2": null,
+                "vcov": 0.401706749551308,
+                "sdcor": 0.633803399763134
+              }
+            ],
+            "qualified_numerical_fit": true
+          },
+          "input_support_literal": {
+            "family": "Rickettsiaceae",
+            "necessary_complete_formula_support_failed": false,
+            "nonzero_fixed_rank": 7,
+            "fixed_rank_without_N": 6,
+            "N_column_independently_estimable_in_fixed_mean_algebra": true,
+            "support_flags": []
+          },
+          "source_status": "ESTIMATE_PRESENT_NOT_REQUALIFIED_FOR_INFERENCE",
+          "N_contrast": "Low_N minus Std_N(180 kg/ha maize)",
+          "reference_context": "Same rank and coefficient; year-specific common-bias feature sets 155/155; no identical offset assumption",
+          "unit_count": 8,
+          "pair_count": 4,
+          "lfc_literal": "0.0603964590927239",
+          "se_literal": "0.345635644421071",
+          "dof_literal": "6.09527596589389",
+          "source_path": "15_FINAL_AUDIT/PHASE5_AC_YEAR_MODELS_20261009_V1/actual/C_2017_observed/N_ASSOCIATIONS_RAW.tsv",
+          "source_line": 123,
+          "source_sha256": "f035b07ecdc43ba9e5be53ee39a249b295b3b3b2530db71e23cd46fbc8ad6b58"
+        },
+        {
+          "cohort": "C_2018",
+          "family": "Rickettsiaceae",
+          "diagnostic_state": "FINAL_FIT_FLAG",
+          "diagnostics_literal": {
+            "family": "Rickettsiaceae",
+            "fit_returned": true,
+            "nobs": 26,
+            "coefficient_names": [
+              "(Intercept)",
+              "NLN",
+              "spatial_pair[\"continuous\",\"2\"]",
+              "spatial_pair[\"rotated\",\"1\"]",
+              "spatial_pair[\"rotated\",\"2\"]",
+              "period08",
+              "period09"
+            ],
+            "N_raw_estimate": 0.0428092796807256,
+            "N_raw_standard_error": 0.418696146709212,
+            "N_fit_df": 2.32207367733746,
+            "fixed_basis_exact": true,
+            "dropped_columns": null,
+            "singular": true,
+            "optimizer_code": 0,
+            "convergence_messages": "boundary (singular) fit: see help('isSingular')",
+            "variance_components": [
+              {
+                "grp": "subplot_period_uid",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0,
+                "sdcor": 0
+              },
+              {
+                "grp": "allocation_unit",
+                "var1": "(Intercept)",
+                "var2": null,
+                "vcov": 0.137487113362979,
+                "sdcor": 0.370792547609818
+              },
+              {
+                "grp": "Residual",
+                "var1": null,
+                "var2": null,
+                "vcov": 0.530777214460081,
+                "sdcor": 0.728544586459937
+              }
+            ],
+            "qualified_numerical_fit": false
+          },
+          "input_support_literal": {
+            "family": "Rickettsiaceae",
+            "necessary_complete_formula_support_failed": false,
+            "nonzero_fixed_rank": 7,
+            "fixed_rank_without_N": 6,
+            "N_column_independently_estimable_in_fixed_mean_algebra": true,
+            "support_flags": []
+          },
+          "source_status": "ESTIMATE_PRESENT_NOT_REQUALIFIED_FOR_INFERENCE",
+          "N_contrast": "Low_N minus Std_N(180 kg/ha maize)",
+          "reference_context": "Same rank and coefficient; year-specific common-bias feature sets 155/155; no identical offset assumption",
+          "unit_count": 8,
+          "pair_count": 4,
+          "lfc_literal": "0.0428092796807256",
+          "se_literal": "0.473085620153233",
+          "dof_literal": "2.32207367733746",
+          "source_path": "15_FINAL_AUDIT/PHASE5_AC_YEAR_MODELS_20261009_V1/actual/C_2018_observed/N_ASSOCIATIONS_RAW.tsv",
+          "source_line": 122,
+          "source_sha256": "5e62fb06305476b7f52c7f460b3071fefc991bc6cf01a0bc7c6346b8af62d513"
+        }
+      ],
+      "theta": 0.05160286938672475,
+      "point_status": "AVAILABLE",
+      "precision_status": "FULL_RHO_CONDITIONAL",
+      "point_sign": "POSITIVE",
+      "variance_intercept": 0.08581850067253452,
+      "variance_slope": 0.08175762659400235,
+      "se_min": 0.063724987866081,
+      "se_max": 0.409360632287152,
+      "critical_rho": -1.0415271356048073,
+      "rho_zero_exclusion_class": "NO_RHO",
+      "rho_interval_low": null,
+      "rho_interval_high": null,
+      "rho_low_inclusive": false,
+      "rho_high_inclusive": false,
+      "degenerate_minus_one": false,
+      "contour_min_low": -0.07584710634543725,
+      "contour_min_high": 0.17905284511888675,
+      "contour_max_low": -0.7671183951875793,
+      "contour_max_high": 0.8703241339610287,
+      "precision_ratio_min_se": 0.8097744874454733,
+      "precision_ratio_max_se": 0.12605723490901577,
+      "B_two_SE_excludes_zero": null,
+      "bio_CI": null,
+      "bio_P": null,
+      "bio_FDR": null,
+      "meta_weight": null,
+      "P1": null,
+      "contour_definition": "theta plus/minus two native model standard errors; conditional, not biological95CI"
+    },
+    "provenance": "Literal bound C record, including full affine rho_C precision, year estimates, diagnostics and missing statuses; no new C computation"
+  },
+  "precision_supported": false,
+  "cells": [
+    {
+      "kind": "INTERVAL",
+      "lo": "-1/1",
+      "hi": "1/1",
+      "closed": [
+        true,
+        true
+      ],
+      "state": "REGULAR",
+      "gates": {
+        "G1": "UNKNOWN",
+        "G2": "UNKNOWN",
+        "G3": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G4": "UNKNOWN",
+        "G5": "UNKNOWN"
+      },
+      "joint": "UNKNOWN",
+      "numeric": null,
+      "missing_reason": "SAVED_EFFECT_OR_POSITIVE_PRECISION_UNAVAILABLE"
+    }
+  ],
+  "certificates": [],
+  "domain": {
+    "G1": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G2": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G3": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    "G4": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G5": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "joint": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    }
+  },
+  "classes": {
+    "G1": "NOT_ASSESSABLE",
+    "G2": "NOT_ASSESSABLE",
+    "G3": "NOT_ASSESSABLE",
+    "G4": "NOT_ASSESSABLE",
+    "G5": "NOT_ASSESSABLE",
+    "joint": "NOT_ASSESSABLE"
+  },
+  "degenerate_endpoints": [],
+  "input": {
+    "a": "-10644988573587/100000000000000",
+    "b": null,
+    "alpha": "422217373161999/12500000000000000",
+    "beta": "603715372030119/25000000000000000",
+    "z": null
+  }
+}

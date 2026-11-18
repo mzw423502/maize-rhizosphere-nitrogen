@@ -1,0 +1,164 @@
+{
+  "family": "Magnetospirillaceae",
+  "input_source": "BOUND_INPUT_EXACT_FAMILY_KEY",
+  "primary_experiments": [
+    "A",
+    "B"
+  ],
+  "source_diagnostics": {
+    "A": "ORIGINAL_DIAGNOSTICS_RETAINED",
+    "B": "ABSENT",
+    "C": "ABSENT"
+  },
+  "formal_P1_status": "NOT_RELEASED",
+  "P1_count": null,
+  "signature_weight": null,
+  "Bonn_release": false,
+  "P": null,
+  "FDR": null,
+  "estimand": "MODEL_CONDITIONAL_AB_NATURAL_LOG_ASSOCIATION",
+  "C_auxiliary": {
+    "role": "AUXILIARY_NOT_POOLED_NOT_AN_AB_GATE",
+    "presence": "ABSENT",
+    "source_record": null,
+    "provenance": "Literal bound C record, including full affine rho_C precision, year estimates, diagnostics and missing statuses; no new C computation"
+  },
+  "precision_supported": false,
+  "cells": [
+    {
+      "kind": "INTERVAL",
+      "lo": "-1/1",
+      "hi": "1/1",
+      "closed": [
+        true,
+        true
+      ],
+      "state": "REGULAR",
+      "gates": {
+        "G1": "UNKNOWN",
+        "G2": "UNKNOWN",
+        "G3": "NOT_APPLICABLE_NO_COMMON_DIRECTION",
+        "G4": "UNKNOWN",
+        "G5": "UNKNOWN"
+      },
+      "joint": "UNKNOWN",
+      "numeric": null,
+      "missing_reason": "SAVED_EFFECT_OR_POSITIVE_PRECISION_UNAVAILABLE"
+    }
+  ],
+  "certificates": [],
+  "domain": {
+    "G1": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G2": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G3": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    "G4": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "G5": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    },
+    "joint": {
+      "PASS": [],
+      "FAIL": [],
+      "UNKNOWN": [
+        {
+          "kind": "INTERVAL",
+          "lo": "-1/1",
+          "hi": "1/1",
+          "closed": [
+            true,
+            true
+          ]
+        }
+      ],
+      "NOT_APPLICABLE_NO_COMMON_DIRECTION": []
+    }
+  },
+  "classes": {
+    "G1": "NOT_ASSESSABLE",
+    "G2": "NOT_ASSESSABLE",
+    "G3": "NOT_ASSESSABLE",
+    "G4": "NOT_ASSESSABLE",
+    "G5": "NOT_ASSESSABLE",
+    "joint": "NOT_ASSESSABLE"
+  },
+  "degenerate_endpoints": [],
+  "input": {
+    "a": "434649456315977/4000000000000000",
+    "b": null,
+    "alpha": "29710423693240947/1000000000000000000",
+    "beta": "11031370666962621/500000000000000000",
+    "z": null
+  }
+}
